@@ -1,0 +1,264 @@
+2023-09-27 11:08:49 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:08:50 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:50 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:50 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:50 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:50 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:50 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:50 : WARNING : libecalc : !EXPERIMENTAL! Maximum power constraint is an experimental feature where the syntax may change at any time.. It has not thoroughly tested and Quality Assured yet. Use at own risk. !EXPERIMENTAL!
+2023-09-27 11:08:50 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:50 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:50 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:50 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:50 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:50 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:50 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:08:50 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:08:50 : INFO : popt.loop.optimize : Running optimization loops...
+2023-09-27 11:08:50 : INFO : popt.loop.optimize : iter       alpha_iter obj_func   step-size  cov[0,0]   
+2023-09-27 11:08:50 : INFO : popt.loop.optimize : 0          0          -25.69     0.00e+00   0.00e+00  
+2023-09-27 11:08:57 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : !EXPERIMENTAL! Maximum power constraint is an experimental feature where the syntax may change at any time.. It has not thoroughly tested and Quality Assured yet. Use at own risk. !EXPERIMENTAL!
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:08:57 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:08:57 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : !EXPERIMENTAL! Maximum power constraint is an experimental feature where the syntax may change at any time.. It has not thoroughly tested and Quality Assured yet. Use at own risk. !EXPERIMENTAL!
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:08:57 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:08:57 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : !EXPERIMENTAL! Maximum power constraint is an experimental feature where the syntax may change at any time.. It has not thoroughly tested and Quality Assured yet. Use at own risk. !EXPERIMENTAL!
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:08:57 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:08:57 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : !EXPERIMENTAL! Maximum power constraint is an experimental feature where the syntax may change at any time.. It has not thoroughly tested and Quality Assured yet. Use at own risk. !EXPERIMENTAL!
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:08:57 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:08:57 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : !EXPERIMENTAL! Maximum power constraint is an experimental feature where the syntax may change at any time.. It has not thoroughly tested and Quality Assured yet. Use at own risk. !EXPERIMENTAL!
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:57 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:08:57 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:08:59 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:08:59 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:59 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:59 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:59 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:59 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:59 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:59 : WARNING : libecalc : !EXPERIMENTAL! Maximum power constraint is an experimental feature where the syntax may change at any time.. It has not thoroughly tested and Quality Assured yet. Use at own risk. !EXPERIMENTAL!
+2023-09-27 11:08:59 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:59 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:59 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:59 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:59 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:59 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:08:59 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:08:59 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:09:01 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:09:01 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:01 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:01 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:01 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:01 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:01 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:01 : WARNING : libecalc : !EXPERIMENTAL! Maximum power constraint is an experimental feature where the syntax may change at any time.. It has not thoroughly tested and Quality Assured yet. Use at own risk. !EXPERIMENTAL!
+2023-09-27 11:09:01 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:01 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:01 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:01 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:01 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:01 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:01 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:09:01 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:09:01 : INFO : popt.loop.optimize : 1          1          -21.87     1.25e-01   9.57e-03  
+2023-09-27 11:09:07 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : !EXPERIMENTAL! Maximum power constraint is an experimental feature where the syntax may change at any time.. It has not thoroughly tested and Quality Assured yet. Use at own risk. !EXPERIMENTAL!
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:09:07 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:09:07 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : !EXPERIMENTAL! Maximum power constraint is an experimental feature where the syntax may change at any time.. It has not thoroughly tested and Quality Assured yet. Use at own risk. !EXPERIMENTAL!
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:09:07 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:09:07 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : !EXPERIMENTAL! Maximum power constraint is an experimental feature where the syntax may change at any time.. It has not thoroughly tested and Quality Assured yet. Use at own risk. !EXPERIMENTAL!
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:09:07 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:09:07 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : !EXPERIMENTAL! Maximum power constraint is an experimental feature where the syntax may change at any time.. It has not thoroughly tested and Quality Assured yet. Use at own risk. !EXPERIMENTAL!
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:09:07 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:09:07 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : !EXPERIMENTAL! Maximum power constraint is an experimental feature where the syntax may change at any time.. It has not thoroughly tested and Quality Assured yet. Use at own risk. !EXPERIMENTAL!
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:07 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:09:07 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:09:09 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:09:09 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:09 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:09 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:09 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:09 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:09 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:09 : WARNING : libecalc : !EXPERIMENTAL! Maximum power constraint is an experimental feature where the syntax may change at any time.. It has not thoroughly tested and Quality Assured yet. Use at own risk. !EXPERIMENTAL!
+2023-09-27 11:09:09 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:09 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:09 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:09 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:09 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:09 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:09 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:09:09 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:09:12 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:09:12 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:12 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:12 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:12 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:12 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:12 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:12 : WARNING : libecalc : !EXPERIMENTAL! Maximum power constraint is an experimental feature where the syntax may change at any time.. It has not thoroughly tested and Quality Assured yet. Use at own risk. !EXPERIMENTAL!
+2023-09-27 11:09:12 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:12 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:12 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:12 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:12 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:12 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:12 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:09:12 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:09:13 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:09:14 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:14 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:14 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:14 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:14 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:14 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:14 : WARNING : libecalc : !EXPERIMENTAL! Maximum power constraint is an experimental feature where the syntax may change at any time.. It has not thoroughly tested and Quality Assured yet. Use at own risk. !EXPERIMENTAL!
+2023-09-27 11:09:14 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:14 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:14 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:14 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:14 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:14 : WARNING : libecalc : Duplicate rate values in ChartCurve: {0.0}
+2023-09-27 11:09:14 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:09:14 : WARNING : libecalc : Head is increasing with rate in a ChartCurve. Interpolations are based on the assumption of an inverse monotonic function between head and rate. Given head values: [24279.75, 24034.5, 23396.85, 22366.8, 18639.0, 17756.1, 18639.0, 17756.1] Given rate values: [480.0, 500.0, 600.0, 700.0, 900.0, 967.0, 1700.0, 2000.0]
+2023-09-27 11:09:14 : INFO : popt.loop.optimize : Optimization converged in 1 iterations 
+2023-09-27 11:09:14 : INFO : popt.loop.optimize : Optimization converged with final obj_func = -21.87
+2023-09-27 11:09:14 : INFO : popt.loop.optimize : Total number of function evaluations = 16
+2023-09-27 11:09:14 : INFO : popt.loop.optimize : Total elapsed time = 0.39 minutes

@@ -5,18 +5,16 @@ import shutil
 import logging
 from glob import glob
 import numpy as np
-import datetime as dt
-import csv
 
 from popt.loop.optimize import Optimize
 from simulator.opm import flow
 from input_output import read_config
 from popt.update_schemes.enopt import EnOpt
-from popt.cost_functions.npv import npv
+from popt.cost_functions.ecalc_npv import ecalc_npv
 
-from plot_optim import *
+from enopt_plot import plot_obj_func
 
-np.random.seed(270623)
+np.random.seed(101122)
 
 
 def main():
@@ -28,37 +26,21 @@ def main():
                 shutil.rmtree(folder)
         finally:
             pass
+    for f in os.listdir('./'):
+        if 'debug_analysis_step_' in f:
+            os.remove(f)
 
-    # remove old results
-    for f in glob("debug_analysis_step_*.npz"):
-        os.remove(f)
-
-    # Set initial state
-    init_injrate = 300.0 * np.ones(120)
-    init_prodrate = 100.0 * np.ones(60)
-    np.savez('init_injrate.npz', init_injrate)
-    np.savez('init_prodrate.npz', init_prodrate)
-
-    # Set dates
-    report_dates = []
-    for index in range(60):
-        report_dates.append(dt.datetime(2029, 1, 1) + dt.timedelta(30*(index+1)))
-    with open('report_dates.csv', 'w') as csvfile:
-        writer = csv.writer(csvfile, delimiter=',')
-        writer.writerow(list(report_dates))
-
-    ko, kf = read_config.read_txt('init_optim_mean.popt')  # init_optim_rate.popt
+    ko, kf = read_config.read_txt('init_optim.popt')
     ke = ko
 
     sim = flow(kf)
-    method = EnOpt(ko, ke, sim, npv)
+    method = EnOpt(ko, ke, sim, ecalc_npv, optimizer='GA')
 
     optimization = Optimize(method)
     optimization.run_loop()
 
     # Post-processing: enopt_plot
     plot_obj_func()
-    plt.show()
 
     # Display results
     state_initial = np.load('ini_state.npz', allow_pickle=True)

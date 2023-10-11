@@ -7,20 +7,27 @@ ENOPT
 MAX_ITER	5
 OBJ_FUNC_TOL	1E-8
 STEP_TOL	1E-9
-ALPHA	0.1
+ALPHA	0.25
 ALPHA_ITER_MAX	2
-NUM_MODELS	5
+RESAMPLINGS	0
+HESSIAN
 
 NE
-10
+5
 
 STATE
 INJBHP
+PRODBHP
 
 PRIOR_INJBHP
 MEAN	init_injbhp.npz
-VAR	0.001
-LIMITS	200	400
+VAR	0.01
+LIMITS	100	500
+
+PRIOR_PRODBHP
+MEAN	init_prodbhp.npz
+VAR	0.01
+LIMITS	20	300
 
 TEMPSAVE
 YES
@@ -39,8 +46,9 @@ WOP	283.05
 WGP	0
 WWP	37.74
 WWI	12.58
+WEM	54.87
 DISC	0.08
-OBJ_SCALING	1E8
+OBJ_SCALING	1E6
 
 FWDSIM
 
@@ -49,13 +57,14 @@ SUBSURF_FLOW	OPM_FLOW
 # SUBSURF_FLOW	ECL_100
 
 PARALLEL
-6
+2
 
-SIMOPTIONS
-SIM_FLAG	--enable-tuning=true --threads-per-process=2 --tolerance-mb=1e-5 --linear-solver-ignore-convergence-failure=true --tolerance-cnv-relaxed=100 --tolerance-cnv=0.1 --min-strict-cnv-iter=2 --ds-max=0.1 --min-time-step-before-shutting-problematic-wells-in-days=10 --time-step-after-event-in-days=10 --strict-outer-iter-wells=4
+#SIMOPTIONS
+#SIMPATH	/ecl/macros/
+#SIM_FLAG	--enable-well-operability-check=false --enable-tuning=true
 
 RUNFILE
-3WELL_INJ
+3WELL
 
 REPORTPOINT
 report_dates.csv
