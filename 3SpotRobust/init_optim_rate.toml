@@ -80,11 +80,7 @@ npv_const = [
     ],
 ]
 parallel = 2
-simoptions = [
-    ['MPI',
-        'mprun -np 3'
-    ],
-]
+simoptions = ['mpi', 'mpirun -np 3']
 runfile = "3WELL_RATE"
 reportpoint = 'report_dates.csv'
 reporttype = "dates"
