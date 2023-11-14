@@ -1,4 +1,4 @@
-# import ip
+import sys
 import os
 import glob
 import shutil
@@ -9,31 +9,25 @@ import datetime as dt
 import csv
 
 from popt.loop.optimize import Optimize
+from popt.loop.ensemble import Ensemble
 from simulator.opm import flow
 from input_output import read_config
 from popt.update_schemes.enopt import EnOpt
 from popt.cost_functions.npv import npv
 
-from plot_optim import *
-
+sys.path.append('../../Plotting/')
+from plot_optim import plot_obj_func
 np.random.seed(270623)
 
 
 def main():
     # Check if folder contains any En_ files, and remove them!
     for folder in glob('En_*'):
-        try:
-            if len(folder.split('_')) == 2:
-                int(folder.split('_')[1])
-                shutil.rmtree(folder)
-        finally:
-            pass
+        shutil.rmtree(folder)
+    for file in glob('optimize_result_*'):
+        os.remove(file)
 
-    # remove old results
-    for f in glob("debug_analysis_step_*.npz"):
-        os.remove(f)
-
-    # Set initial state
+    # Set initial pressure
     init_injbhp = 250.0 * np.ones(120)
     init_prodbhp = 150.0 * np.ones(60)
     np.savez('init_injbhp.npz', init_injbhp)
@@ -47,26 +41,18 @@ def main():
         writer = csv.writer(csvfile, delimiter=',')
         writer.writerow(list(report_dates))
 
-    ko, kf = read_config.read_txt('init_optim_inj.popt')
-    ke = ko
+    ko, kf, ke = read_config.read_toml('init_optim_bhp.toml')
 
     sim = flow(kf)
-    method = EnOpt(ko, ke, sim, npv)
+    ensemble = Ensemble(ke, sim, npv)
+    x0 = ensemble.get_state()
+    cov = ensemble.get_cov()
+    bounds = ensemble.get_bounds()
 
-    optimization = Optimize(method)
-    optimization.run_loop()
+    EnOpt(ensemble.function, x0, args=(cov,), jac=ensemble.gradient, hess=ensemble.hessian, bounds=bounds, **ko)
 
-    # Post-processing: enopt_plot
+    # Plot
     plot_obj_func()
-    plt.show()
-
-    # Display results
-    state_initial = np.load('ini_state.npz', allow_pickle=True)
-    state_final = np.load('opt_state.npz', allow_pickle=True)
-    for f in state_initial.files:
-        print('Initial ' + f + ' ' + str(state_initial[f]))
-        print('Final ' + f + ' ' + str(state_final[f]))
-        print('---------------')
 
 
 if __name__ == '__main__':
