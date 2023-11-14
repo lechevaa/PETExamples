@@ -35,12 +35,6 @@ prior_prodrate = [
         200.0,
     ],
 ]
-datatype = [
-    "fopt",
-    "fgpt",
-    "fwpt",
-    "fwit",
-]
 transform = true
 
 [optim]

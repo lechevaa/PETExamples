@@ -34,12 +34,6 @@ prior_prodbhp = [
         300.0,
     ],
 ]
-datatype = [
-    "fopt",
-    "fgpt",
-    "fwpt",
-    "fwit",
-]
 transform = true
 
 [optim]
@@ -87,6 +81,7 @@ npv_const = [
     ],
 ]
 parallel = 5
+simoptions = ['sim_flag', '--parsing-strictness=low']
 runfile = "3well"
 reportpoint = [
     1994-02-09 00:00:00,

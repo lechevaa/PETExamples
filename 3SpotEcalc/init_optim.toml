@@ -34,12 +34,6 @@ prior_prodbhp = [
         300.0,
     ],
 ]
-datatype = [
-    "fopt",
-    "fgpt",
-    "fwpt",
-    "fwit",
-]
 transform = true
 
 [optim]

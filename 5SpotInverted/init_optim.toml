@@ -6,12 +6,6 @@ prior_injbhp = [
     ["var", 10.0, ],
     ["limits", 1.0, 300.0, ],
 ]
-datatype = [
-    "fopt",
-    "fgpt",
-    "fwpt",
-    "fwit",
-]
 transform = true
 
 [optim]
@@ -39,9 +33,7 @@ npv_const = [
     ["obj_scaling", -1.0e8, ],
 ]
 parallel = 5
-simoptions = [
-    ['SIM_FLAG', '--tolerance-mb=1e-5']
-]
+simoptions = ['sim_flag', '--tolerance-mb=1e-5']
 runfile = "OPTIM_BHP"
 reportpoint = 'report_dates.csv'
 reporttype = "dates"
