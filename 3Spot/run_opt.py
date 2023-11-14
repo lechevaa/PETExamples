@@ -43,11 +43,11 @@ def main():
     # print(res)
 
     # Example using EnOpt
-    #EnOpt(ensemble.function, x0, args=(cov,), jac=ensemble.gradient, hess=ensemble.hessian, bounds=bounds, **ko)
+    EnOpt(ensemble.function, x0, args=(cov,), jac=ensemble.gradient, hess=ensemble.hessian, bounds=bounds, **ko)
 
     # Example using the sequential Monte Carlo method
-    ko['savedata'] += ["best_state", "best_func"]
-    SmcOpt(ensemble.function, x0, args=(cov,), sens=ensemble.calc_ensemble_weights, bounds=bounds, **ko)
+    # ko['savedata'] += ["best_state", "best_func"]
+    # SmcOpt(ensemble.function, x0, args=(cov,), sens=ensemble.calc_ensemble_weights, bounds=bounds, **ko)
 
     # Example calling EnOpt through scipy.minimize (this does exactly the same as running EnOpt)
     # minimize(ensemble.function, x0, args=(cov,), method=EnOpt, jac=ensemble.gradient, hess=ensemble.hessian,
