@@ -11,7 +11,7 @@ prior_injbhp = [
     ],
     [
         "var",
-        10.0,
+        6250.0,
     ],
     [
         "limits",
@@ -26,7 +26,7 @@ prior_prodbhp = [
     ],
     [
         "var",
-        10.0,
+        6250.0,
     ],
     [
         "limits",

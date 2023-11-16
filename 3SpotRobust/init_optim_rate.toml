@@ -12,7 +12,7 @@ prior_injrate = [
     ],
     [
         "var",
-        10.0,
+        6250.0,
     ],
     [
         "limits",
@@ -27,7 +27,7 @@ prior_prodrate = [
     ],
     [
         "var",
-        10.0,
+        6250.0,
     ],
     [
         "limits",

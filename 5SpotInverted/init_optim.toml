@@ -3,7 +3,7 @@ ne = 50
 state = ["injbhp"]
 prior_injbhp = [
     ["mean", "init_injbhp.npz", ],
-    ["var", 10.0, ],
+    ["var", 6250.0, ],
     ["limits", 1.0, 300.0, ],
 ]
 transform = true
