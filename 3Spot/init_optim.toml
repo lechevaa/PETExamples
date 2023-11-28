@@ -34,6 +34,7 @@ prior_prodbhp = [
         300.0,
     ],
 ]
+num_models = 1
 transform = true
 
 [optim]
@@ -48,6 +49,7 @@ nesterov = true
 restartsave = true
 restart = false
 hessian = false # used for EnOpt
+inflation_factor = 10
 savedata = [
     "alpha",
     "obj_func_values",

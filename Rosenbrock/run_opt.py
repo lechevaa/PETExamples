@@ -11,7 +11,6 @@ from simulator.simple_models import noSimulation
 from input_output import read_config
 from popt.update_schemes.enopt import EnOpt
 from popt.cost_functions.rosenbrock import rosenbrock
-sys.path.append('../../Plotting/')
 from plot_optim import plot_obj_func, plot_state
 
 np.random.seed(101122)

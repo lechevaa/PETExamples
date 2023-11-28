@@ -15,8 +15,8 @@ from input_output import read_config
 from popt.update_schemes.enopt import EnOpt
 from popt.cost_functions.npv import npv
 
-sys.path.append('../../Plotting/')
 from plot_optim import plot_obj_func
+
 np.random.seed(270623)
 
 
