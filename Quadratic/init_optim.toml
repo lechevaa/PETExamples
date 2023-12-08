@@ -14,17 +14,17 @@ prior_vector= [
     ],
     [
         "limits",
-        -2.0,
-        2.0,
+        -10.0,
+        10.0,
     ],
 ]
 transform = true
 
 [optim]
-maxiter = 500
-tol = 1e-06
-alpha = 0.25
-alpha_maxiter = 8
+maxiter = 50
+tol = 1e-02
+alpha = 0.1
+alpha_maxiter = 4
 resample = 0
 optimizer = 'GA'
 restartsave = true
