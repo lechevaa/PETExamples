@@ -79,8 +79,7 @@ npv_const = [
         -1.0e6,
     ],
 ]
-parallel = 2
-simoptions = ['mpi', 'mpirun -np 3']
+parallel = 5
 runfile = "3WELL_RATE"
 reportpoint = 'report_dates.csv'
 reporttype = "dates"
