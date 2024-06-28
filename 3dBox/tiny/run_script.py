@@ -8,7 +8,8 @@ from ensemble.ensemble import Ensemble
 import numpy as np
 np.random.seed(10)
 
-kd, kf = read_config.read_txt('3D_ES.pipt')
+# kd, kf, _ = read_config.read_toml('3D_ESMDA.toml')  # Run with ESMDA and toml input format
+kd, kf = read_config.read_txt('3D_ES.pipt')  # Run with ES and plain text input format
 sim = flow(kf)
 
 #en = Ensemble(kd,sim)
