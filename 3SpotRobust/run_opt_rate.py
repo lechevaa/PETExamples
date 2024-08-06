@@ -10,7 +10,7 @@ import csv
 
 from popt.loop.optimize import Optimize
 from popt.loop.ensemble import Ensemble
-from simulator.opm import flow
+from subsurface.multphaseflow.opm import flow
 from input_output import read_config
 from popt.update_schemes.enopt import EnOpt
 from popt.cost_functions.npv import npv
