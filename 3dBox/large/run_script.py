@@ -9,7 +9,8 @@ import numpy as np
 np.random.seed(10)
 
 kd, kf = read_config.read_txt('3D_ES.pipt')
-sim = flow(kf)
+options = {'sim_path': '/home/AD.NORCERESEARCH.NO/anle/pycopm/build/opm-simulators/bin/'}
+sim = flow(kf, options=options)
 
 #en = Ensemble(kd,sim)
 #en.calc_prediction(save_prediction='prior_prediction')

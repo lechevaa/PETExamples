@@ -1,0 +1,1701 @@
+
+
+
+ ########  #          ######   #           #
+ #         #         #      #   #         # 
+ #####     #         #      #    #   #   #  
+ #         #         #      #     # # # #   
+ #         #######    ######       #   #    
+
+Flow is a simulator for fully implicit three-phase black-oil flow, and is part of OPM.
+For more information visit: https://opm-project.org 
+
+Flow Version     =  2024.10-pre (633728b59)
+Machine name     =  cno-0005.ad.norceresearch.no (Number of logical cores: 144, Memory size: 1546636.86 MB) 
+Operating system =  Linux x86_64 (Kernel: 5.4.0-164-generic, #181-Ubuntu SMP Fri Sep 1 13:41:22 UTC 2023 )
+Build time       =  2024-05-08 at 16:48:38 hrs
+User             =  anle
+Simulation started on 13-05-2024 at 09:31:12 hrs
+Using 1 MPI processes with 2 OMP threads on each 
+Parameters used by Flow:
+# [known parameters which were specified at run-time]
+OutputDir="TRUE_RUN" # default: ""
+EclDeckFileName="TRUE_RUN/RUNFILE.DATA" # default: ""
+OutputExtraConvergenceInfo="steps,iterations" # default: "none"
+# [parameters which were specified at compile-time]
+AcceleratorMode="none"
+AllowDistributedWells="0"
+AlternativeWellRateInit="1"
+BdaDeviceId="0"
+ContinueOnConvergenceError="0"
+CprReuseInterval="30"
+CprReuseSetup="4"
+DbhpMaxRel="1"
+DebugEmitCellPartition="0"
+DpMaxRel="0.3"
+DsMax="0.2"
+DwellFractionMax="0.2"
+EclOutputDoublePrecision="0"
+EclOutputInterval="-1"
+EdgeWeightsMethod="1"
+EnableAdaptiveTimeStepping="1"
+EnableAsyncEclOutput="1"
+EnableAsyncVtkOutput="1"
+EnableDriftCompensation="1"
+EnableDryRun="auto"
+EnableEclOutput="1"
+EnableEsmry="0"
+EnableGravity="1"
+EnableGridAdaptation="0"
+EnableIntensiveQuantityCache="1"
+EnableLoggingFalloutWarning="0"
+EnableOpmRstFile="0"
+EnableStorageCache="1"
+EnableTerminalOutput="1"
+EnableThermodynamicHints="0"
+EnableTuning="0"
+EnableVtkOutput="0"
+EnableWellOperabilityCheck="1"
+EnableWellOperabilityCheckIter="0"
+EnableWriteAllSolutions="0"
+EndTime="1e+100"
+ExplicitRockCompaction="0"
+ExternalPartition=""
+ForceDisableFluidInPlaceOutput="0"
+ForceDisableResvFluidInPlaceOutput="0"
+FullTimeStepInitially="0"
+IgnoreKeywords=""
+IluFillinLevel="0"
+IluRedblack="0"
+IluRelaxation="0.9"
+IluReorderSpheres="0"
+InitialTimeStepInDays="1"
+InitialTimeStepSize="86400"
+InputSkipMode="100"
+LinearSolver="ilu0"
+LinearSolverIgnoreConvergenceFailure="0"
+LinearSolverMaxIter="200"
+LinearSolverPrintJsonDefinition="1"
+LinearSolverReduction="0.01"
+LinearSolverRestart="40"
+LinearSolverVerbosity="0"
+LoadFile=""
+LoadStep="-1"
+LocalDomainsOrderingMeasure="maxpressure"
+LocalDomainsPartitioningImbalance="1.03"
+LocalDomainsPartitioningMethod="zoltan"
+LocalSolveApproach="gauss-seidel"
+LocalToleranceScalingCnv="0.1"
+LocalToleranceScalingMb="1"
+LocalWellSolveControlSwitching="0"
+MatrixAddWellContributions="0"
+MaxInnerIterMsWells="100"
+MaxInnerIterWells="50"
+MaxLocalSolveIterations="20"
+MaxNewtonIterationsWithInnerWellIterations="8"
+MaxPressureChangeMsWells="1e+06"
+MaxResidualAllowed="1e+07"
+MaxSinglePrecisionDays="20"
+MaxTemperatureChange="5"
+MaxTimeStepDivisions="10"
+MaxTimeStepSize="inf"
+MaxWelleqIter="30"
+MaximumNumberOfWellSwitches="3"
+MaximumWaterSaturation="1"
+MiluVariant="ILU"
+MinStrictCnvIter="0"
+MinStrictMbIter="-1"
+MinTimeStepBasedOnNewtonIterations="0"
+MinTimeStepBeforeShuttingProblematicWellsInDays="0.01"
+MinTimeStepSize="0"
+NetworkMaxIterations="200"
+NetworkMaxStrictIterations="100"
+NewtonMaxError="1e+100"
+NewtonMaxIterations="20"
+NewtonMaxRelax="0.5"
+NewtonMinIterations="2"
+NewtonRelaxationType="dampen"
+NewtonTargetIterations="10"
+NewtonTolerance="0.01"
+NewtonVerbose="1"
+NewtonWriteConvergence="0"
+NlddNumInitialNewtonIter="1"
+NonlinearSolver="newton"
+NumLocalDomains="0"
+NumPressurePointsEquil="2000"
+OpenclIluParallel="1"
+OpenclPlatformId="0"
+OutputInterval="1"
+OutputMode="all"
+OwnerCellsFirst="1"
+ParameterFile=""
+ParsingStrictness="normal"
+PredeterminedTimeStepsFile=""
+PressureMax="1e+99"
+PressureMin="-1e+99"
+PressureScale="1"
+PriVarOscilationThreshold="1e-05"
+PrintParameters="2"
+PrintProperties="2"
+ProjectSaturations="0"
+RegularizationFactorWells="100"
+RelaxedLinearSolverReduction="0.01"
+RelaxedMaxPvFraction="0.03"
+RelaxedPressureTolMsw="10000"
+RelaxedWellFlowTol="0.001"
+RestartTime="-1e+35"
+RestartWritingInterval="16777215"
+SaveFile=""
+SaveStep=""
+ScaleLinearSystem="0"
+SchedRestart="0"
+SerialPartitioning="0"
+ShutUnsolvableWells="1"
+SolveWelleqInitially="1"
+SolverContinueOnConvergenceFailure="0"
+SolverGrowthFactor="2"
+SolverMaxGrowth="3"
+SolverMaxRestarts="10"
+SolverMaxTimeStepInDays="365"
+SolverMinTimeStep="1e-12"
+SolverRestartFactor="0.33"
+SolverVerbosity="1"
+StrictInnerIterWells="40"
+StrictOuterIterWells="6"
+TemperatureMax="1e+09"
+TemperatureMin="0"
+ThreadsPerProcess="-1"
+TimeStepAfterEventInDays="-1"
+TimeStepControl="pid+newtoniteration"
+TimeStepControlDecayDampingFactor="1"
+TimeStepControlDecayRate="0.75"
+TimeStepControlFileName="timesteps"
+TimeStepControlGrowthDampingFactor="3.2"
+TimeStepControlGrowthRate="1.25"
+TimeStepControlTargetIterations="30"
+TimeStepControlTargetNewtonIterations="8"
+TimeStepControlTolerance="0.1"
+TimeStepVerbosity="1"
+ToleranceCnv="0.01"
+ToleranceCnvRelaxed="1"
+ToleranceMb="1e-06"
+ToleranceMbRelaxed="1e-06"
+TolerancePressureMsWells="1000"
+ToleranceWellControl="1e-07"
+ToleranceWells="0.0001"
+UpdateEquationsScaling="0"
+UseAverageDensityMsWells="0"
+UseGmres="0"
+UseImplicitIpr="0"
+UseMultisegmentWell="1"
+UseUpdateStabilization="1"
+VtkWriteAverageMolarMasses="0"
+VtkWriteDensities="1"
+VtkWriteDiffusionCoefficients="0"
+VtkWriteDofIndex="0"
+VtkWriteEffectiveDiffusionCoefficients="0"
+VtkWriteExtrusionFactor="0"
+VtkWriteFilterVelocities="0"
+VtkWriteFugacities="0"
+VtkWriteFugacityCoeffs="0"
+VtkWriteGasDissolutionFactor="0"
+VtkWriteGasFormationVolumeFactor="0"
+VtkWriteGasSaturationPressure="0"
+VtkWriteIntrinsicPermeabilities="0"
+VtkWriteMassFractions="0"
+VtkWriteMobilities="0"
+VtkWriteMolarities="0"
+VtkWriteMoleFractions="1"
+VtkWriteOilFormationVolumeFactor="0"
+VtkWriteOilSaturationPressure="0"
+VtkWriteOilVaporizationFactor="0"
+VtkWritePorosity="1"
+VtkWritePotentialGradients="0"
+VtkWritePressures="1"
+VtkWritePrimaryVars="0"
+VtkWritePrimaryVarsMeaning="0"
+VtkWriteProcessRank="0"
+VtkWriteRelativePermeabilities="1"
+VtkWriteSaturatedGasOilVaporizationFactor="0"
+VtkWriteSaturatedOilGasDissolutionFactor="0"
+VtkWriteSaturationRatios="0"
+VtkWriteSaturations="1"
+VtkWriteTemperature="1"
+VtkWriteTortuosities="0"
+VtkWriteTotalMassFractions="0"
+VtkWriteTotalMoleFractions="0"
+VtkWriteTracerConcentration="0"
+VtkWriteViscosities="0"
+VtkWriteWaterFormationVolumeFactor="0"
+WaterOnlyThreshold="1"
+ZoltanImbalanceTol="1.1"
+ZoltanParams="graph"
+
+Reading deck file 'TRUE_RUN/RUNFILE.DATA'
+    0 Reading RUNSPEC  in TRUE_RUN/RUNFILE.DATA line 8
+    1 Reading TITLE    in TRUE_RUN/RUNFILE.DATA line 10
+    2 Reading OIL      in TRUE_RUN/RUNFILE.DATA line 18
+    3 Reading WATER    in TRUE_RUN/RUNFILE.DATA line 19
+    4 Reading GAS      in TRUE_RUN/RUNFILE.DATA line 20
+    5 Reading DISGAS   in TRUE_RUN/RUNFILE.DATA line 21
+    6 Reading METRIC   in TRUE_RUN/RUNFILE.DATA line 23
+    7 Reading TABDIMS  in TRUE_RUN/RUNFILE.DATA line 25
+    8 Reading EQLDIMS  in TRUE_RUN/RUNFILE.DATA line 29
+    9 Reading WELLDIMS in TRUE_RUN/RUNFILE.DATA line 33
+   10 Reading VFPPDIMS in TRUE_RUN/RUNFILE.DATA line 37
+   11 Reading VFPIDIMS in TRUE_RUN/RUNFILE.DATA line 41
+   12 Reading AQUDIMS  in TRUE_RUN/RUNFILE.DATA line 45
+   13 Reading FAULTDIM in TRUE_RUN/RUNFILE.DATA line 49
+   14 Reading START    in TRUE_RUN/RUNFILE.DATA line 52
+   15 Reading NSTACK   in TRUE_RUN/RUNFILE.DATA line 55
+   16 Reading NOECHO   in TRUE_RUN/RUNFILE.DATA line 59
+   17 Reading GRID     in TRUE_RUN/RUNFILE.DATA line 61
+   18 Reading INIT     in TRUE_RUN/RUNFILE.DATA line 62
+   19 Reading SPECGRID in /home/AD.NORCERESEARCH.NO/anle/PET-Ex/Examples/3dBox/large/grid/Grid.grdecl line 4
+   20 Reading COORD    in /home/AD.NORCERESEARCH.NO/anle/PET-Ex/Examples/3dBox/large/grid/Grid.grdecl line 7
+   21 Reading ZCORN    in /home/AD.NORCERESEARCH.NO/anle/PET-Ex/Examples/3dBox/large/grid/Grid.grdecl line 3730
+   22 Reading ACTNUM   in /home/AD.NORCERESEARCH.NO/anle/PET-Ex/Examples/3dBox/large/grid/Grid.grdecl line 147732
+   23 Reading PORO     in /home/AD.NORCERESEARCH.NO/anle/PET-Ex/Examples/3dBox/large/grid/Grid.grdecl line 165735
+   24 Reading PERMX    in TRUE_RUN/RUNFILE.DATA line 68
+   25 Reading COPY     in TRUE_RUN/RUNFILE.DATA line 18071
+   26 Reading PROPS    in TRUE_RUN/RUNFILE.DATA line 18077
+   27 Reading SWFN     in /home/AD.NORCERESEARCH.NO/anle/PET-Ex/Examples/3dBox/include/pvt.txt line 3
+   28 Reading SOF3     in /home/AD.NORCERESEARCH.NO/anle/PET-Ex/Examples/3dBox/include/pvt.txt line 26
+   29 Reading SGFN     in /home/AD.NORCERESEARCH.NO/anle/PET-Ex/Examples/3dBox/include/pvt.txt line 49
+   30 Reading PVTG     in /home/AD.NORCERESEARCH.NO/anle/PET-Ex/Examples/3dBox/include/pvt.txt line 75
+   31 Reading PVTO     in /home/AD.NORCERESEARCH.NO/anle/PET-Ex/Examples/3dBox/include/pvt.txt line 137
+   32 Reading PVTW     in /home/AD.NORCERESEARCH.NO/anle/PET-Ex/Examples/3dBox/include/pvt.txt line 307
+   33 Reading ROCK     in /home/AD.NORCERESEARCH.NO/anle/PET-Ex/Examples/3dBox/include/pvt.txt line 313
+   34 Reading DENSITY  in /home/AD.NORCERESEARCH.NO/anle/PET-Ex/Examples/3dBox/include/pvt.txt line 318
+   35 Reading REGIONS  in TRUE_RUN/RUNFILE.DATA line 18083
+   36 Reading ENDBOX   in TRUE_RUN/RUNFILE.DATA line 18085
+   37 Reading SOLUTION in TRUE_RUN/RUNFILE.DATA line 18087
+   38 Reading EQUIL    in TRUE_RUN/RUNFILE.DATA line 18092
+   39 Reading RPTSOL   in TRUE_RUN/RUNFILE.DATA line 18096
+   40 Reading RPTRST   in TRUE_RUN/RUNFILE.DATA line 18099
+   41 Reading SUMMARY  in TRUE_RUN/RUNFILE.DATA line 18104
+   42 Reading RUNSUM   in TRUE_RUN/RUNFILE.DATA line 18106
+   43 Reading RPTONLY  in TRUE_RUN/RUNFILE.DATA line 18109
+   44 Reading WWIR     in TRUE_RUN/RUNFILE.DATA line 18111
+   45 Reading WOPR     in TRUE_RUN/RUNFILE.DATA line 18117
+   46 Reading WWPR     in TRUE_RUN/RUNFILE.DATA line 18123
+   47 Reading ELAPSED  in TRUE_RUN/RUNFILE.DATA line 18129
+   48 Reading SCHEDULE in TRUE_RUN/RUNFILE.DATA line 18131
+   49 Reading RPTSCHED in TRUE_RUN/RUNFILE.DATA line 18134
+   50 Reading RPTRST   in TRUE_RUN/RUNFILE.DATA line 18137
+   51 Reading WELSPECS in /home/AD.NORCERESEARCH.NO/anle/PET-Ex/Examples/3dBox/large/grid/Schdl.sch line 3
+   52 Reading COMPDAT  in /home/AD.NORCERESEARCH.NO/anle/PET-Ex/Examples/3dBox/large/grid/Schdl.sch line 12
+   53 Reading WCONINJE in TRUE_RUN/RUNFILE.DATA line 18147
+   54 Reading WCONPROD in TRUE_RUN/RUNFILE.DATA line 18153
+   55 Reading TSTEP    in TRUE_RUN/RUNFILE.DATA line 18162
+Unsupported keywords or keyword items:
+
+  TABDIMS: invalid value '1' for item 7
+  In file: TRUE_RUN/RUNFILE.DATA, line 25
+  TABDIMS(NRVPVT): should be defaulted (20) – ignored as not used
+
+  NSTACK: keyword not supported
+  In file: TRUE_RUN/RUNFILE.DATA, line 55
+
+  NOECHO: keyword not supported
+  In file: TRUE_RUN/RUNFILE.DATA, line 59
+
+  RPTSOL: keyword not supported
+  In file: TRUE_RUN/RUNFILE.DATA, line 18096
+
+Creating corner-point grid from keywords COORD, ZCORN and others
+3 fluid phases are active
+
+Processing dynamic information from
+TRUE_RUN/RUNFILE.DATA line 18131
+Initializing report step 0/10 at 2022-01-01 0 DAYS line 18131
+Processing keyword RPTSCHED at line 18134
+Processing keyword RPTRST at line 18137
+Reading from: /home/AD.NORCERESEARCH.NO/anle/PET-Ex/Examples/3dBox/large/grid/Schdl.sch line 3
+Processing keyword WELSPECS at line 3
+Processing keyword COMPDAT at line 12
+Reading from: TRUE_RUN/RUNFILE.DATA line 18147
+Processing keyword WCONINJE at line 18147
+Processing keyword WCONPROD at line 18153
+Complete report step 1 (400 DAYS) at 2023-02-05 (0 DAYS)
+
+Initializing report step 2/10 at 2023-02-05 (0 DAYS) line 18162
+Complete report step 2 (400 DAYS) at 2024-03-11 (400 DAYS)
+
+Initializing report step 3/10 at 2024-03-11 (400 DAYS) line 18162
+Complete report step 3 (400 DAYS) at 2025-04-15 (800 DAYS)
+
+Initializing report step 4/10 at 2025-04-15 (800 DAYS) line 18162
+Complete report step 4 (400 DAYS) at 2026-05-20 (1200 DAYS)
+
+Initializing report step 5/10 at 2026-05-20 (1200 DAYS) line 18162
+Complete report step 5 (400 DAYS) at 2027-06-24 (1600 DAYS)
+Report limit reached, see PRT-file for remaining Schedule initialization.
+
+Initializing report step 6/10 at 2027-06-24 (1600 DAYS) line 18162
+Complete report step 6 (400 DAYS) at 2028-07-28 (2000 DAYS)
+
+Initializing report step 7/10 at 2028-07-28 (2000 DAYS) line 18162
+Complete report step 7 (400 DAYS) at 2029-09-01 (2400 DAYS)
+
+Initializing report step 8/10 at 2029-09-01 (2400 DAYS) line 18162
+Complete report step 8 (400 DAYS) at 2030-10-06 (2800 DAYS)
+
+Initializing report step 9/10 at 2030-10-06 (2800 DAYS) line 18162
+Complete report step 9 (400 DAYS) at 2031-11-10 (3200 DAYS)
+
+Initializing report step 10/10 at 2031-11-10 (3200 DAYS) line 18162
+Complete report step 10 (400 DAYS) at 2032-12-14 (3600 DAYS)
+
+
+Processing grid
+Total number of active cells: 18000 / total pore volume: 97200000 RM3
+Property tree for linear solvers:
+{
+    "tol": "0.01",
+    "maxiter": "200",
+    "verbosity": "0",
+    "solver": "bicgstab",
+    "preconditioner": {
+        "type": "ParOverILU0",
+        "relaxation": "0.90000000000000002",
+        "ilulevel": "0"
+    }
+}
+
+
+===============Saturation Functions Diagnostics===============
+
+System:  Black-oil system.
+Relative permeability input format: Saturation Family II.
+Number of saturation regions: 1
+
+
+
+================ Starting main simulation loop ===============
+
+
+
+---------------    Simulation step number 0    ---------------
+      Current time (days)     0
+      Current stepsize (days) 400
+      Total time (days)       4000
+
+
+
+Report step  0/10 at day 0/4000, date = 01-Jan-2022
+Using Newton nonlinear solver.
+
+Starting time step 0, stepsize 1 days, at day 0/400, date = 01-Jan-2022
+Restart file written for report step  0/10, date = 01-Jan-2022 00:00:00
+Iter    MB(O)      MB(W)      MB(G)      CNV(O)     CNV(W)     CNV(G) 
+   0  7.301e-05  6.173e-04  3.758e-05  1.763e-01  1.776e+00  9.075e-02
+Linear system blocksize: 3 size:   18000 block nonzeroes:    117600
+   1  8.186e-05  1.975e-04  9.753e-05  2.880e+00  5.041e-01  1.483e+00
+   2  8.763e-05  5.455e-06  6.384e-05  7.708e-01  1.272e-01  3.963e-01
+   3  1.719e-06  1.925e-06  6.938e-07  1.434e-01  4.720e-02  7.358e-02
+   4  1.812e-06  1.241e-06  9.047e-07  2.149e-02  1.712e-02  1.103e-02
+   5  1.018e-06  5.926e-10  5.222e-07  8.500e-05  7.618e-05  4.362e-05
+   6  3.165e-09  4.686e-12  1.624e-09  6.429e-07  1.758e-07  3.299e-07
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+Overall linear iterations used: 32
+ Newton its= 6, linearizations= 7 (0.1sec), linear its= 32 (0.2sec)
+
+Starting time step 1, stepsize 1.8 days, at day 1/400, date = 02-Jan-2022
+Iter    MB(O)      MB(W)      MB(G)      CNV(O)     CNV(W)     CNV(G) 
+   0  9.301e-05  3.890e-04  6.363e-05  5.977e-01  6.126e-01  3.067e-01
+   1  1.049e-05  4.691e-05  4.082e-05  1.308e-01  1.336e-01  6.692e-02
+   2  7.693e-06  2.920e-06  1.783e-06  8.872e-03  8.622e-03  4.535e-03
+   3  2.660e-08  2.489e-09  1.051e-08  4.027e-04  2.222e-04  2.058e-04
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+Overall linear iterations used: 33
+ Newton its= 3, linearizations= 4 (0.1sec), linear its= 33 (0.1sec)
+
+Starting time step 2, stepsize 5.4 days, at day 2.8/400, date = 03-Jan-2022
+Iter    MB(O)      MB(W)      MB(G)      CNV(O)     CNV(W)     CNV(G) 
+   0  2.310e-04  9.579e-04  1.793e-04  6.927e-01  6.907e-01  3.540e-01
+   1  1.039e-04  1.901e-04  2.904e-05  3.168e-01  1.389e-01  1.605e-01
+   2  1.092e-05  4.927e-06  4.150e-06  9.416e-02  4.725e-02  4.758e-02
+   3  9.171e-06  5.987e-09  4.601e-06  1.101e-02  1.869e-03  5.564e-03
+   4  5.037e-08  1.475e-09  1.135e-08  1.116e-04  2.578e-05  4.653e-05
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+Overall linear iterations used: 58
+ Newton its= 4, linearizations= 5 (0.1sec), linear its= 58 (0.2sec)
+
+Starting time step 3, stepsize 12.4979 days, at day 8.2/400, date = 09-Jan-2022
+Iter    MB(O)      MB(W)      MB(G)      CNV(O)     CNV(W)     CNV(G) 
+   0  4.792e-04  2.146e-03  3.453e-04  7.053e-01  7.083e-01  3.564e-01
+   1  3.082e-04  3.711e-04  1.580e-04  6.046e-01  2.906e-01  2.991e-01
+   2  6.769e-05  1.032e-05  3.223e-05  1.005e-01  6.815e-02  4.962e-02
+   3  4.031e-08  1.123e-07  5.183e-07  1.390e-02  4.189e-03  6.860e-03
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+Overall linear iterations used: 60
+ Newton its= 3, linearizations= 4 (0.0sec), linear its= 60 (0.2sec)
+
+Starting time step 4, stepsize 24.6549 days, at day 20.6979/400, date = 21-Jan-2022
+Iter    MB(O)      MB(W)      MB(G)      CNV(O)     CNV(W)     CNV(G) 
+   0  9.288e-04  4.123e-03  5.654e-04  6.283e-01  6.361e-01  3.100e-01
+   1  4.895e-04  5.520e-04  3.864e-04  5.803e-01  4.291e-01  2.761e-01
+   2  1.195e-04  5.540e-06  5.711e-05  1.657e-01  8.851e-02  7.877e-02
+   3  4.199e-06  1.245e-07  2.157e-06  1.195e-02  5.304e-03  5.670e-03
+   4  4.934e-07  1.735e-08  2.340e-07  3.477e-05  1.107e-04  8.712e-04
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+Overall linear iterations used: 98
+ Newton its= 4, linearizations= 5 (0.1sec), linear its= 98 (0.3sec)
+
+Starting time step 5, stepsize 44.8193 days, at day 45.3528/400, date = 15-Feb-2022
+Iter    MB(O)      MB(W)      MB(G)      CNV(O)     CNV(W)     CNV(G) 
+   0  1.833e-03  6.820e-03  8.928e-04  5.955e-01  5.976e-01  2.826e-01
+   1  7.650e-04  6.859e-04  4.514e-04  7.591e-01  4.913e-01  3.431e-01
+   2  1.012e-04  1.411e-06  4.683e-05  2.174e-01  9.740e-02  9.821e-02
+   3  2.116e-05  2.302e-07  9.554e-06  4.620e-02  7.741e-03  8.779e-02
+   4  1.083e-05  5.445e-08  4.890e-06  3.186e-04  1.851e-04  5.360e-03
+   5  8.023e-08  1.236e-08  3.618e-08  7.487e-06  2.073e-05  3.379e-06
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+Overall linear iterations used: 149
+ Newton its= 5, linearizations= 6 (0.1sec), linear its=149 (0.5sec)
+
+Starting time step 6, stepsize 76.5975 days, at day 90.1721/400, date = 01-Apr-2022
+Iter    MB(O)      MB(W)      MB(G)      CNV(O)     CNV(W)     CNV(G) 
+   0  3.639e-03  9.729e-03  1.578e-03  6.026e-01  6.046e-01  2.720e-01
+   1  1.076e-03  8.297e-04  4.759e-04  7.482e-01  5.967e-01  3.226e-01
+   2  4.624e-05  1.039e-05  1.976e-05  2.996e-01  1.359e-01  1.292e-01
+   3  4.216e-05  2.156e-07  1.818e-05  2.739e-02  1.730e-02  1.181e-02
+   4  1.489e-07  6.478e-08  6.415e-08  3.526e-04  6.057e-04  1.520e-04
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+Overall linear iterations used: 130
+ Newton its= 4, linearizations= 5 (0.1sec), linear its=130 (0.4sec)
+
+Starting time step 7, stepsize 139.745 days, at day 166.77/400, date = 16-Jun-2022
+Iter    MB(O)      MB(W)      MB(G)      CNV(O)     CNV(W)     CNV(G) 
+   0  7.546e-03  1.385e-02  3.181e-03  6.650e-01  6.672e-01  2.866e-01
+   1  1.891e-03  1.682e-03  8.067e-04  8.705e-01  8.587e-01  3.636e-01
+Linear system blocksize: 3 size:   18000 block nonzeroes:    117600
+   2  1.224e-04  1.280e-05  5.107e-05  3.682e-01  1.530e-01  1.538e-01
+   3  6.776e-05  2.871e-07  2.829e-05  4.343e-02  2.129e-02  1.813e-02
+   4  1.894e-07  4.365e-10  7.947e-08  4.298e-04  5.177e-04  1.794e-04
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+Overall linear iterations used: 162
+ Newton its= 4, linearizations= 5 (0.1sec), linear its=162 (0.5sec)
+
+Starting time step 8, stepsize 93.485 days, at day 306.515/400, date = 03-Nov-2022
+Iter    MB(O)      MB(W)      MB(G)      CNV(O)     CNV(W)     CNV(G) 
+   0  5.492e-03  7.210e-03  2.277e-03  2.511e-01  2.519e-01  1.048e-01
+   1  1.526e-04  5.742e-06  6.481e-05  1.249e-01  1.974e-01  5.155e-02
+   2  2.591e-05  6.296e-07  1.070e-05  2.332e-02  3.216e-02  9.632e-03
+   3  1.846e-06  8.944e-08  7.626e-07  1.029e-03  1.336e-04  4.250e-04
+   4  3.139e-08  8.973e-10  1.297e-08  2.686e-06  8.375e-07  1.109e-06
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+Keyword 'NEWTON' is unhandled for output to restart file.
+Overall linear iterations used: 176
+ Newton its= 4, linearizations= 5 (0.1sec), linear its=176 (0.5sec)
+Sub steps started at time = 0 (days)
+ step[ 0 ] = 1 (days)
+ step[ 1 ] = 1.8 (days)
+ step[ 2 ] = 5.4 (days)
+ step[ 3 ] = 12.4979 (days)
+ step[ 4 ] = 24.6549 (days)
+ step[ 5 ] = 44.8193 (days)
+ step[ 6 ] = 76.5975 (days)
+ step[ 7 ] = 139.745 (days)
+ step[ 8 ] = 93.485 (days)
+sub steps end time = 400 (days)
+Suggested next step size = 243.061 (days)
+
+Time step took 4.463993 seconds; total solver time 4.463993 seconds.
+
+
+---------------    Simulation step number 1    ---------------
+      Current time (days)     400
+      Current stepsize (days) 400
+      Total time (days)       4000
+
+
+
+Report step  1/10 at day 400/4000, date = 05-Feb-2023
+
+Starting time step 0, stepsize 243.061 days, at day 400/800, date = 05-Feb-2023
+Restart file written for report step  1/10, date = 05-Feb-2023 00:00:00
+Iter    MB(O)      MB(W)      MB(G)      CNV(O)     CNV(W)     CNV(G) 
+   0  1.467e-02  1.694e-02  6.042e-03  5.178e-01  5.181e-01  2.139e-01
+   1  3.300e-03  3.050e-03  1.354e-03  1.030e+00  9.235e-01  4.222e-01
+   2  2.978e-05  9.847e-06  1.221e-05  4.110e-01  2.013e-01  1.685e-01
+   3  5.556e-05  2.183e-05  2.278e-05  9.855e-02  3.511e-02  4.040e-02
+   4  5.399e-06  5.809e-06  2.280e-06  7.170e-04  5.048e-04  3.999e-04
+   5  4.154e-08  1.383e-09  1.687e-08  1.485e-04  3.520e-05  6.088e-05
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+Overall linear iterations used: 171
+ Newton its= 5, linearizations= 6 (0.1sec), linear its=171 (0.5sec)
+
+Starting time step 1, stepsize 156.939 days, at day 643.061/800, date = 06-Oct-2023
+Iter    MB(O)      MB(W)      MB(G)      CNV(O)     CNV(W)     CNV(G) 
+   0  9.659e-03  1.007e-02  3.956e-03  2.606e-01  2.604e-01  1.068e-01
+   1  2.255e-05  1.426e-04  9.226e-06  1.771e-01  2.978e-01  7.253e-02
+   2  3.523e-05  3.025e-06  1.421e-05  6.949e-02  3.630e-02  2.843e-02
+   3  1.759e-07  7.627e-09  7.200e-08  6.248e-03  3.076e-04  2.556e-03
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+Keyword 'NEWTON' is unhandled for output to restart file.
+Overall linear iterations used: 118
+ Newton its= 3, linearizations= 4 (0.0sec), linear its=118 (0.4sec)
+Sub steps started at time = 400 (days)
+ step[ 0 ] = 243.061 (days)
+ step[ 1 ] = 156.939 (days)
+sub steps end time = 800 (days)
+Suggested next step size = 365 (days)
+
+
+                              **************************************************************************
+  WELLS    AT       400  DAYS *         INVERTED 5 SPOT MODEL                                          *
+  REPORT    1    05 Feb 2023  *                                             Flow  version 2024.10-pre  *
+                              **************************************************************************
+
+
+======================================================= PRODUCTION REPORT =======================================================
+:  WELL  :  LOCATION :CTRL:    OIL    :   WATER   :    GAS    :   FLUID   :   WATER   : GAS/OIL  :  WAT/GAS   : BHP OR : THP OR :
+:  NAME  :  (I,J,K)  :MODE:    RATE   :   RATE    :    RATE   :  RES.VOL. :    CUT    :  RATIO   :   RATIO    : CON.PR.: BLK.PR.:
+:        :           :    :  SCM/DAY  :  SCM/DAY  :  SCM/DAY  :  RCM/DAY  :  SCM/SCM  :  SCM/SCM :  SCM/SCM   :  BARSA :  BARSA :
+=================================================================================================================================
+:   FIELD:           :    :     4292.0:        0.0:   554543.9:     6015.0:      0.000:    129.20:      0.0000:        :        :
+:       G:           :    :     4292.0:        0.0:   554543.9:     6015.0:      0.000:    129.20:      0.0000:        :        :
+:    PRO1:    1,   60: BHP:     2084.0:        0.0:   269265.0:     2920.6:      0.000:    129.20:      0.0000:    90.0:     0.0:
+:    PRO2:   30,   60: BHP:      970.6:        0.0:   125387.2:     1360.2:      0.000:    129.18:      0.0000:    90.0:     0.0:
+:    PRO3:   60,   60: BHP:     1237.4:        0.0:   159891.7:     1734.1:      0.000:    129.22:      0.0000:    90.0:     0.0:
+:--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
+
+=================================================== INJECTION REPORT ========================================
+:  WELL  :  LOCATION : CTRL : CTRL : CTRL :    OIL    :   WATER   :    GAS    :   FLUID   : BHP OR : THP OR :
+:  NAME  :  (I,J,K)  : MODE : MODE : MODE :    RATE   :   RATE    :    RATE   :  RES.VOL. : CON.PR.: BLK.PR.:
+:        :           : OIL  : WAT  : GAS  :  SCM/DAY  :  SCM/DAY  :  SCM/DAY  :  RCM/DAY  :  BARSA :  BARSA :
+=============================================================================================================
+:   FIELD:           :      :      :      :        0.0:     5924.1:        0.0:     6115.0:        :        :
+:       G:           :      :      :      :        0.0:     5924.1:        0.0:     6115.0:        :        :
+:    INJ1:    1,    1:      :   BHP:      :        0.0:     2203.4:        0.0:     2274.4:   300.0:     0.0:
+:    INJ2:   30,    1:      :   BHP:      :        0.0:      499.9:        0.0:      516.1:   300.0:     0.0:
+:    INJ3:   60,    1:      :   BHP:      :        0.0:     3220.7:        0.0:     3324.5:   300.0:     0.0:
+:--------:-----------:------:------:------:-----------:-----------:-----------:-----------:--------:--------:
+
+=================================================== CUMULATIVE PRODUCTION/INJECTION REPORT =========================================
+:  WELL  :  LOCATION :  WELL  :CTRL:    OIL    :   WATER   :    GAS    :   Prod    :    OIL    :   WATER   :    GAS    :   INJ     :
+:  NAME  :  (I,J,K)  :  TYPE  :MODE:    PROD   :   PROD    :    PROD   :  RES.VOL. :    INJ    :   INJ     :    INJ    :  RES.VOL. :
+:        :           :        :    :    MSCM   :   MSCM    :    MMSCM  :   MRCM    :    MSCM   :   MSCM    :    MMSCM  :   MRCM    :
+====================================================================================================================================
+:   FIELD:           :        :    :     3228.6:        0.0:      417.5:     4543.0:        0.0:     5962.3:        0.0:     6159.1:
+:       G:           :        :    :     3228.6:        0.0:      417.5:     4543.0:        0.0:     5962.3:        0.0:     6159.1:
+:    INJ1:    1,    1:     INJ: BHP:        0.0:        0.0:        0.0:        0.0:        0.0:     2195.0:        0.0:     2267.5:
+:    INJ2:   30,    1:     INJ: BHP:        0.0:        0.0:        0.0:        0.0:        0.0:      474.9:        0.0:      490.5:
+:    INJ3:   60,    1:     INJ: BHP:        0.0:        0.0:        0.0:        0.0:        0.0:     3292.4:        0.0:     3401.1:
+:    PRO1:    1,   60:    PROD: BHP:     1567.5:        0.0:      202.7:     2206.3:        0.0:        0.0:        0.0:        0.0:
+:    PRO2:   30,   60:    PROD: BHP:      730.8:        0.0:       94.5:     1028.1:        0.0:        0.0:        0.0:        0.0:
+:    PRO3:   60,   60:    PROD: BHP:      930.3:        0.0:      120.3:     1308.6:        0.0:        0.0:        0.0:        0.0:
+:--------:-----------:--------:----:-----------:-----------:-----------:-----------:-----------:-----------:-----------:-----------:
+
+Time step took 1.213389 seconds; total solver time 5.677382 seconds.
+
+
+---------------    Simulation step number 2    ---------------
+      Current time (days)     800
+      Current stepsize (days) 400
+      Total time (days)       4000
+
+
+
+Report step  2/10 at day 800/4000, date = 11-Mar-2024
+
+Starting time step 0, stepsize 200 days, at day 800/1200, date = 11-Mar-2024
+Restart file written for report step  2/10, date = 11-Mar-2024 00:00:00
+Iter    MB(O)      MB(W)      MB(G)      CNV(O)     CNV(W)     CNV(G) 
+   0  1.237e-02  1.258e-02  5.059e-03  3.040e-01  3.036e-01  1.244e-01
+   1  4.492e-04  6.421e-04  1.837e-04  2.816e-01  3.450e-01  1.152e-01
+   2  4.112e-05  2.729e-06  1.671e-05  1.176e-01  1.216e-01  4.803e-02
+   3  5.154e-06  4.447e-08  2.108e-06  9.406e-03  2.058e-03  3.843e-03
+   4  2.446e-07  9.653e-08  9.998e-08  4.813e-06  9.869e-06  1.966e-06
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+Overall linear iterations used: 141
+ Newton its= 4, linearizations= 5 (0.1sec), linear its=141 (0.4sec)
+
+Starting time step 1, stepsize 200 days, at day 1000/1200, date = 27-Sep-2024
+Iter    MB(O)      MB(W)      MB(G)      CNV(O)     CNV(W)     CNV(G) 
+   0  1.241e-02  1.248e-02  5.068e-03  2.962e-01  2.949e-01  1.212e-01
+   1  4.119e-04  5.888e-04  1.683e-04  2.458e-01  3.485e-01  1.004e-01
+   2  4.167e-05  5.030e-06  1.701e-05  1.193e-01  8.370e-02  4.871e-02
+   3  5.359e-06  2.543e-06  2.188e-06  4.172e-03  3.073e-03  1.703e-03
+   4  6.989e-08  7.206e-09  2.875e-08  1.191e-05  7.211e-06  7.439e-06
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+Keyword 'NEWTON' is unhandled for output to restart file.
+Overall linear iterations used: 158
+ Newton its= 4, linearizations= 5 (0.1sec), linear its=158 (0.5sec)
+Sub steps started at time = 800 (days)
+ step[ 0 ] = 200 (days)
+ step[ 1 ] = 200 (days)
+sub steps end time = 1200 (days)
+Suggested next step size = 365 (days)
+
+
+                              **************************************************************************
+  WELLS    AT       800  DAYS *         INVERTED 5 SPOT MODEL                                          *
+  REPORT    2    11 Mar 2024  *                                             Flow  version 2024.10-pre  *
+                              **************************************************************************
+
+
+======================================================= PRODUCTION REPORT =======================================================
+:  WELL  :  LOCATION :CTRL:    OIL    :   WATER   :    GAS    :   FLUID   :   WATER   : GAS/OIL  :  WAT/GAS   : BHP OR : THP OR :
+:  NAME  :  (I,J,K)  :MODE:    RATE   :   RATE    :    RATE   :  RES.VOL. :    CUT    :  RATIO   :   RATIO    : CON.PR.: BLK.PR.:
+:        :           :    :  SCM/DAY  :  SCM/DAY  :  SCM/DAY  :  RCM/DAY  :  SCM/SCM  :  SCM/SCM :  SCM/SCM   :  BARSA :  BARSA :
+=================================================================================================================================
+:   FIELD:           :    :     4310.0:        0.0:   557007.3:     6039.5:      0.000:    129.24:      0.0000:        :        :
+:       G:           :    :     4310.0:        0.0:   557007.3:     6039.5:      0.000:    129.24:      0.0000:        :        :
+:    PRO1:    1,   60: BHP:     2093.0:        0.0:   270497.2:     2932.9:      0.000:    129.24:      0.0000:    90.0:     0.0:
+:    PRO2:   30,   60: BHP:      974.3:        0.0:   125904.4:     1365.2:      0.000:    129.23:      0.0000:    90.0:     0.0:
+:    PRO3:   60,   60: BHP:     1242.7:        0.0:   160605.7:     1741.4:      0.000:    129.24:      0.0000:    90.0:     0.0:
+:--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
+
+=================================================== INJECTION REPORT ========================================
+:  WELL  :  LOCATION : CTRL : CTRL : CTRL :    OIL    :   WATER   :    GAS    :   FLUID   : BHP OR : THP OR :
+:  NAME  :  (I,J,K)  : MODE : MODE : MODE :    RATE   :   RATE    :    RATE   :  RES.VOL. : CON.PR.: BLK.PR.:
+:        :           : OIL  : WAT  : GAS  :  SCM/DAY  :  SCM/DAY  :  SCM/DAY  :  RCM/DAY  :  BARSA :  BARSA :
+=============================================================================================================
+:   FIELD:           :      :      :      :        0.0:     5865.6:        0.0:     6054.4:        :        :
+:       G:           :      :      :      :        0.0:     5865.6:        0.0:     6054.4:        :        :
+:    INJ1:    1,    1:      :   BHP:      :        0.0:     2194.6:        0.0:     2265.2:   300.0:     0.0:
+:    INJ2:   30,    1:      :   BHP:      :        0.0:      500.2:        0.0:      516.3:   300.0:     0.0:
+:    INJ3:   60,    1:      :   BHP:      :        0.0:     3170.8:        0.0:     3272.9:   300.0:     0.0:
+:--------:-----------:------:------:------:-----------:-----------:-----------:-----------:--------:--------:
+
+=================================================== CUMULATIVE PRODUCTION/INJECTION REPORT =========================================
+:  WELL  :  LOCATION :  WELL  :CTRL:    OIL    :   WATER   :    GAS    :   Prod    :    OIL    :   WATER   :    GAS    :   INJ     :
+:  NAME  :  (I,J,K)  :  TYPE  :MODE:    PROD   :   PROD    :    PROD   :  RES.VOL. :    INJ    :   INJ     :    INJ    :  RES.VOL. :
+:        :           :        :    :    MSCM   :   MSCM    :    MMSCM  :   MRCM    :    MSCM   :   MSCM    :    MMSCM  :   MRCM    :
+====================================================================================================================================
+:   FIELD:           :        :    :     4951.4:        0.0:      640.1:     6957.1:        0.0:     8310.8:        0.0:     8583.2:
+:       G:           :        :    :     4951.4:        0.0:      640.1:     6957.1:        0.0:     8310.8:        0.0:     8583.2:
+:    INJ1:    1,    1:     INJ: BHP:        0.0:        0.0:        0.0:        0.0:        0.0:     3072.6:        0.0:     3173.3:
+:    INJ2:   30,    1:     INJ: BHP:        0.0:        0.0:        0.0:        0.0:        0.0:      674.8:        0.0:      696.9:
+:    INJ3:   60,    1:     INJ: BHP:        0.0:        0.0:        0.0:        0.0:        0.0:     4563.4:        0.0:     4713.0:
+:    PRO1:    1,   60:    PROD: BHP:     2404.1:        0.0:      310.9:     3378.6:        0.0:        0.0:        0.0:        0.0:
+:    PRO2:   30,   60:    PROD: BHP:     1120.3:        0.0:      144.8:     1573.8:        0.0:        0.0:        0.0:        0.0:
+:    PRO3:   60,   60:    PROD: BHP:     1427.0:        0.0:      184.5:     2004.6:        0.0:        0.0:        0.0:        0.0:
+:--------:-----------:--------:----:-----------:-----------:-----------:-----------:-----------:-----------:-----------:-----------:
+
+Time step took 1.262412 seconds; total solver time 6.939795 seconds.
+
+
+---------------    Simulation step number 3    ---------------
+      Current time (days)     1200
+      Current stepsize (days) 400
+      Total time (days)       4000
+
+
+
+Report step  3/10 at day 1200/4000, date = 15-Apr-2025
+
+Starting time step 0, stepsize 200 days, at day 1200/1600, date = 15-Apr-2025
+Restart file written for report step  3/10, date = 15-Apr-2025 00:00:00
+Iter    MB(O)      MB(W)      MB(G)      CNV(O)     CNV(W)     CNV(G) 
+   0  1.242e-02  1.246e-02  5.072e-03  2.836e-01  2.832e-01  1.158e-01
+   1  3.542e-04  4.789e-04  1.446e-04  2.136e-01  2.902e-01  8.721e-02
+   2  3.833e-05  8.536e-07  1.564e-05  7.174e-02  8.147e-02  2.928e-02
+   3  1.022e-05  5.236e-07  4.170e-06  5.980e-03  6.936e-03  2.440e-03
+   4  1.458e-09  2.577e-08  5.966e-10  3.217e-05  1.940e-05  1.313e-05
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+Overall linear iterations used: 139
+ Newton its= 4, linearizations= 5 (0.1sec), linear its=139 (0.4sec)
+
+Starting time step 1, stepsize 200 days, at day 1400/1600, date = 01-Nov-2025
+Iter    MB(O)      MB(W)      MB(G)      CNV(O)     CNV(W)     CNV(G) 
+   0  1.244e-02  1.246e-02  5.074e-03  2.673e-01  2.669e-01  1.091e-01
+   1  2.849e-04  3.917e-04  1.162e-04  2.011e-01  2.895e-01  8.205e-02
+   2  5.467e-05  7.817e-07  2.230e-05  9.499e-02  5.522e-02  3.875e-02
+   3  6.124e-06  4.234e-07  2.499e-06  8.623e-03  1.070e-03  3.517e-03
+Linear system blocksize: 3 size:   18000 block nonzeroes:    117600
+   4  1.498e-07  4.997e-08  6.106e-08  6.820e-06  3.465e-06  2.782e-06
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+Keyword 'NEWTON' is unhandled for output to restart file.
+Overall linear iterations used: 127
+ Newton its= 4, linearizations= 5 (0.1sec), linear its=127 (0.4sec)
+Sub steps started at time = 1200 (days)
+ step[ 0 ] = 200 (days)
+ step[ 1 ] = 200 (days)
+sub steps end time = 1600 (days)
+Suggested next step size = 365 (days)
+
+
+                              **************************************************************************
+  WELLS    AT      1200  DAYS *         INVERTED 5 SPOT MODEL                                          *
+  REPORT    3    15 Apr 2025  *                                             Flow  version 2024.10-pre  *
+                              **************************************************************************
+
+
+======================================================= PRODUCTION REPORT =======================================================
+:  WELL  :  LOCATION :CTRL:    OIL    :   WATER   :    GAS    :   FLUID   :   WATER   : GAS/OIL  :  WAT/GAS   : BHP OR : THP OR :
+:  NAME  :  (I,J,K)  :MODE:    RATE   :   RATE    :    RATE   :  RES.VOL. :    CUT    :  RATIO   :   RATIO    : CON.PR.: BLK.PR.:
+:        :           :    :  SCM/DAY  :  SCM/DAY  :  SCM/DAY  :  RCM/DAY  :  SCM/SCM  :  SCM/SCM :  SCM/SCM   :  BARSA :  BARSA :
+=================================================================================================================================
+:   FIELD:           :    :     4318.7:        0.0:   558147.2:     6051.6:      0.000:    129.24:      0.0000:        :        :
+:       G:           :    :     4318.7:        0.0:   558147.2:     6051.6:      0.000:    129.24:      0.0000:        :        :
+:    PRO1:    1,   60: BHP:     2097.3:        0.0:   271057.6:     2938.9:      0.000:    129.24:      0.0000:    90.0:     0.0:
+:    PRO2:   30,   60: BHP:      976.0:        0.0:   126137.6:     1367.6:      0.000:    129.24:      0.0000:    90.0:     0.0:
+:    PRO3:   60,   60: BHP:     1245.4:        0.0:   160951.9:     1745.1:      0.000:    129.24:      0.0000:    90.0:     0.0:
+:--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
+
+=================================================== INJECTION REPORT ========================================
+:  WELL  :  LOCATION : CTRL : CTRL : CTRL :    OIL    :   WATER   :    GAS    :   FLUID   : BHP OR : THP OR :
+:  NAME  :  (I,J,K)  : MODE : MODE : MODE :    RATE   :   RATE    :    RATE   :  RES.VOL. : CON.PR.: BLK.PR.:
+:        :           : OIL  : WAT  : GAS  :  SCM/DAY  :  SCM/DAY  :  SCM/DAY  :  RCM/DAY  :  BARSA :  BARSA :
+=============================================================================================================
+:   FIELD:           :      :      :      :        0.0:     5869.3:        0.0:     6058.2:        :        :
+:       G:           :      :      :      :        0.0:     5869.3:        0.0:     6058.2:        :        :
+:    INJ1:    1,    1:      :   BHP:      :        0.0:     2201.0:        0.0:     2271.8:   300.0:     0.0:
+:    INJ2:   30,    1:      :   BHP:      :        0.0:      500.6:        0.0:      516.8:   300.0:     0.0:
+:    INJ3:   60,    1:      :   BHP:      :        0.0:     3167.7:        0.0:     3269.6:   300.0:     0.0:
+:--------:-----------:------:------:------:-----------:-----------:-----------:-----------:--------:--------:
+
+=================================================== CUMULATIVE PRODUCTION/INJECTION REPORT =========================================
+:  WELL  :  LOCATION :  WELL  :CTRL:    OIL    :   WATER   :    GAS    :   Prod    :    OIL    :   WATER   :    GAS    :   INJ     :
+:  NAME  :  (I,J,K)  :  TYPE  :MODE:    PROD   :   PROD    :    PROD   :  RES.VOL. :    INJ    :   INJ     :    INJ    :  RES.VOL. :
+:        :           :        :    :    MSCM   :   MSCM    :    MMSCM  :   MRCM    :    MSCM   :   MSCM    :    MMSCM  :   MRCM    :
+====================================================================================================================================
+:   FIELD:           :        :    :     6678.1:        0.0:      863.3:     9376.6:        0.0:    10657.8:        0.0:    11005.7:
+:       G:           :        :    :     6678.1:        0.0:      863.3:     9376.6:        0.0:    10657.8:        0.0:    11005.7:
+:    INJ1:    1,    1:     INJ: BHP:        0.0:        0.0:        0.0:        0.0:        0.0:     3952.4:        0.0:     4081.4:
+:    INJ2:   30,    1:     INJ: BHP:        0.0:        0.0:        0.0:        0.0:        0.0:      875.1:        0.0:      903.6:
+:    INJ3:   60,    1:     INJ: BHP:        0.0:        0.0:        0.0:        0.0:        0.0:     5830.3:        0.0:     6020.7:
+:    PRO1:    1,   60:    PROD: BHP:     3242.7:        0.0:      419.2:     4553.6:        0.0:        0.0:        0.0:        0.0:
+:    PRO2:   30,   60:    PROD: BHP:     1510.5:        0.0:      195.2:     2120.7:        0.0:        0.0:        0.0:        0.0:
+:    PRO3:   60,   60:    PROD: BHP:     1924.9:        0.0:      248.8:     2702.3:        0.0:        0.0:        0.0:        0.0:
+:--------:-----------:--------:----:-----------:-----------:-----------:-----------:-----------:-----------:-----------:-----------:
+
+Time step took 1.158950 seconds; total solver time 8.098745 seconds.
+
+
+---------------    Simulation step number 4    ---------------
+      Current time (days)     1600
+      Current stepsize (days) 400
+      Total time (days)       4000
+
+
+
+Report step  4/10 at day 1600/4000, date = 20-May-2026
+
+Starting time step 0, stepsize 200 days, at day 1600/2000, date = 20-May-2026
+Restart file written for report step  4/10, date = 20-May-2026 00:00:00
+Iter    MB(O)      MB(W)      MB(G)      CNV(O)     CNV(W)     CNV(G) 
+   0  1.245e-02  1.246e-02  5.076e-03  2.568e-01  2.564e-01  1.047e-01
+   1  2.537e-04  3.620e-04  1.034e-04  2.141e-01  2.936e-01  8.732e-02
+   2  4.620e-05  6.087e-06  1.884e-05  1.021e-01  4.087e-02  4.163e-02
+   3  1.189e-05  1.196e-06  4.844e-06  1.393e-02  2.627e-03  5.680e-03
+   4  6.450e-08  6.772e-08  2.663e-08  2.403e-05  8.404e-06  9.796e-06
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+Overall linear iterations used: 120
+ Newton its= 4, linearizations= 5 (0.1sec), linear its=120 (0.4sec)
+
+Starting time step 1, stepsize 200 days, at day 1800/2000, date = 06-Dec-2026
+Iter    MB(O)      MB(W)      MB(G)      CNV(O)     CNV(W)     CNV(G) 
+   0  1.246e-02  1.247e-02  5.079e-03  2.630e-01  2.627e-01  1.072e-01
+   1  2.011e-04  3.042e-04  8.197e-05  2.072e-01  2.996e-01  8.447e-02
+   2  4.407e-05  2.954e-06  1.796e-05  7.718e-02  5.113e-02  3.146e-02
+   3  5.213e-06  6.403e-07  2.147e-06  1.539e-03  2.665e-03  6.273e-04
+   4  1.410e-09  3.252e-08  5.838e-10  6.861e-06  5.015e-06  2.796e-06
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+Keyword 'NEWTON' is unhandled for output to restart file.
+Overall linear iterations used: 134
+ Newton its= 4, linearizations= 5 (0.1sec), linear its=134 (0.4sec)
+Sub steps started at time = 1600 (days)
+ step[ 0 ] = 200 (days)
+ step[ 1 ] = 200 (days)
+sub steps end time = 2000 (days)
+Suggested next step size = 365 (days)
+
+
+                              **************************************************************************
+  WELLS    AT      1600  DAYS *         INVERTED 5 SPOT MODEL                                          *
+  REPORT    4    20 May 2026  *                                             Flow  version 2024.10-pre  *
+                              **************************************************************************
+
+
+======================================================= PRODUCTION REPORT =======================================================
+:  WELL  :  LOCATION :CTRL:    OIL    :   WATER   :    GAS    :   FLUID   :   WATER   : GAS/OIL  :  WAT/GAS   : BHP OR : THP OR :
+:  NAME  :  (I,J,K)  :MODE:    RATE   :   RATE    :    RATE   :  RES.VOL. :    CUT    :  RATIO   :   RATIO    : CON.PR.: BLK.PR.:
+:        :           :    :  SCM/DAY  :  SCM/DAY  :  SCM/DAY  :  RCM/DAY  :  SCM/SCM  :  SCM/SCM :  SCM/SCM   :  BARSA :  BARSA :
+=================================================================================================================================
+:   FIELD:           :    :     4326.9:        0.0:   559208.5:     6063.1:      0.000:    129.24:      0.0000:        :        :
+:       G:           :    :     4326.9:        0.0:   559208.5:     6063.1:      0.000:    129.24:      0.0000:        :        :
+:    PRO1:    1,   60: BHP:     2101.3:        0.0:   271573.4:     2944.5:      0.000:    129.24:      0.0000:    90.0:     0.0:
+:    PRO2:   30,   60: BHP:      977.6:        0.0:   126350.4:     1369.9:      0.000:    129.24:      0.0000:    90.0:     0.0:
+:    PRO3:   60,   60: BHP:     1247.9:        0.0:   161284.6:     1748.7:      0.000:    129.24:      0.0000:    90.0:     0.0:
+:--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
+
+=================================================== INJECTION REPORT ========================================
+:  WELL  :  LOCATION : CTRL : CTRL : CTRL :    OIL    :   WATER   :    GAS    :   FLUID   : BHP OR : THP OR :
+:  NAME  :  (I,J,K)  : MODE : MODE : MODE :    RATE   :   RATE    :    RATE   :  RES.VOL. : CON.PR.: BLK.PR.:
+:        :           : OIL  : WAT  : GAS  :  SCM/DAY  :  SCM/DAY  :  SCM/DAY  :  RCM/DAY  :  BARSA :  BARSA :
+=============================================================================================================
+:   FIELD:           :      :      :      :        0.0:     5879.7:        0.0:     6069.0:        :        :
+:       G:           :      :      :      :        0.0:     5879.7:        0.0:     6069.0:        :        :
+:    INJ1:    1,    1:      :   BHP:      :        0.0:     2204.1:        0.0:     2275.0:   300.0:     0.0:
+:    INJ2:   30,    1:      :   BHP:      :        0.0:      499.9:        0.0:      516.0:   300.0:     0.0:
+:    INJ3:   60,    1:      :   BHP:      :        0.0:     3175.7:        0.0:     3277.9:   300.0:     0.0:
+:--------:-----------:------:------:------:-----------:-----------:-----------:-----------:--------:--------:
+
+=================================================== CUMULATIVE PRODUCTION/INJECTION REPORT =========================================
+:  WELL  :  LOCATION :  WELL  :CTRL:    OIL    :   WATER   :    GAS    :   Prod    :    OIL    :   WATER   :    GAS    :   INJ     :
+:  NAME  :  (I,J,K)  :  TYPE  :MODE:    PROD   :   PROD    :    PROD   :  RES.VOL. :    INJ    :   INJ     :    INJ    :  RES.VOL. :
+:        :           :        :    :    MSCM   :   MSCM    :    MMSCM  :   MRCM    :    MSCM   :   MSCM    :    MMSCM  :   MRCM    :
+====================================================================================================================================
+:   FIELD:           :        :    :     8408.0:        0.0:     1086.8:    11800.7:        0.0:    13008.6:        0.0:    13432.2:
+:       G:           :        :    :     8408.0:        0.0:     1086.8:    11800.7:        0.0:    13008.6:        0.0:    13432.2:
+:    INJ1:    1,    1:     INJ: BHP:        0.0:        0.0:        0.0:        0.0:        0.0:     4833.9:        0.0:     4991.2:
+:    INJ2:   30,    1:     INJ: BHP:        0.0:        0.0:        0.0:        0.0:        0.0:     1075.1:        0.0:     1110.1:
+:    INJ3:   60,    1:     INJ: BHP:        0.0:        0.0:        0.0:        0.0:        0.0:     7099.6:        0.0:     7330.9:
+:    PRO1:    1,   60:    PROD: BHP:     4082.8:        0.0:      527.8:     5730.9:        0.0:        0.0:        0.0:        0.0:
+:    PRO2:   30,   60:    PROD: BHP:     1901.4:        0.0:      245.7:     2668.4:        0.0:        0.0:        0.0:        0.0:
+:    PRO3:   60,   60:    PROD: BHP:     2423.8:        0.0:      313.3:     3401.4:        0.0:        0.0:        0.0:        0.0:
+:--------:-----------:--------:----:-----------:-----------:-----------:-----------:-----------:-----------:-----------:-----------:
+
+Time step took 1.115487 seconds; total solver time 9.214231 seconds.
+
+
+---------------    Simulation step number 5    ---------------
+      Current time (days)     2000
+      Current stepsize (days) 400
+      Total time (days)       4000
+
+
+
+Report step  5/10 at day 2000/4000, date = 24-Jun-2027
+
+Starting time step 0, stepsize 200 days, at day 2000/2400, date = 24-Jun-2027
+Restart file written for report step  5/10, date = 24-Jun-2027 00:00:00
+Iter    MB(O)      MB(W)      MB(G)      CNV(O)     CNV(W)     CNV(G) 
+   0  1.247e-02  1.249e-02  5.081e-03  2.675e-01  2.671e-01  1.090e-01
+   1  2.151e-04  3.098e-04  8.765e-05  2.295e-01  2.959e-01  9.350e-02
+   2  4.494e-05  1.537e-05  1.831e-05  1.332e-01  5.249e-02  5.426e-02
+   3  9.533e-06  9.948e-07  3.883e-06  2.263e-02  1.627e-03  9.215e-03
+   4  9.101e-07  2.989e-07  3.706e-07  5.283e-05  7.004e-05  2.152e-05
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+Overall linear iterations used: 107
+ Newton its= 4, linearizations= 5 (0.1sec), linear its=107 (0.3sec)
+
+Starting time step 1, stepsize 200 days, at day 2200/2400, date = 10-Jan-2028
+Iter    MB(O)      MB(W)      MB(G)      CNV(O)     CNV(W)     CNV(G) 
+   0  1.248e-02  1.250e-02  5.084e-03  2.752e-01  2.748e-01  1.121e-01
+   1  2.297e-04  3.180e-04  9.356e-05  2.073e-01  2.547e-01  8.445e-02
+   2  3.246e-05  3.771e-06  1.322e-05  8.194e-02  4.194e-02  3.336e-02
+   3  4.372e-06  8.518e-08  1.768e-06  1.404e-03  2.068e-03  5.718e-04
+   4  1.573e-08  1.515e-09  6.409e-09  9.508e-07  2.929e-06  3.871e-07
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+Keyword 'NEWTON' is unhandled for output to restart file.
+Overall linear iterations used: 126
+ Newton its= 4, linearizations= 5 (0.1sec), linear its=126 (0.4sec)
+Sub steps started at time = 2000 (days)
+ step[ 0 ] = 200 (days)
+ step[ 1 ] = 200 (days)
+sub steps end time = 2400 (days)
+Suggested next step size = 365 (days)
+
+
+                              **************************************************************************
+  WELLS    AT      2000  DAYS *         INVERTED 5 SPOT MODEL                                          *
+  REPORT    5    24 Jun 2027  *                                             Flow  version 2024.10-pre  *
+                              **************************************************************************
+
+
+======================================================= PRODUCTION REPORT =======================================================
+:  WELL  :  LOCATION :CTRL:    OIL    :   WATER   :    GAS    :   FLUID   :   WATER   : GAS/OIL  :  WAT/GAS   : BHP OR : THP OR :
+:  NAME  :  (I,J,K)  :MODE:    RATE   :   RATE    :    RATE   :  RES.VOL. :    CUT    :  RATIO   :   RATIO    : CON.PR.: BLK.PR.:
+:        :           :    :  SCM/DAY  :  SCM/DAY  :  SCM/DAY  :  RCM/DAY  :  SCM/SCM  :  SCM/SCM :  SCM/SCM   :  BARSA :  BARSA :
+=================================================================================================================================
+:   FIELD:           :    :     4335.0:        0.0:   560259.5:     6074.5:      0.000:    129.24:      0.0000:        :        :
+:       G:           :    :     4335.0:        0.0:   560259.5:     6074.5:      0.000:    129.24:      0.0000:        :        :
+:    PRO1:    1,   60: BHP:     2105.3:        0.0:   272087.6:     2950.1:      0.000:    129.24:      0.0000:    90.0:     0.0:
+:    PRO2:   30,   60: BHP:      979.2:        0.0:   126558.5:     1372.2:      0.000:    129.24:      0.0000:    90.0:     0.0:
+:    PRO3:   60,   60: BHP:     1250.5:        0.0:   161613.4:     1752.3:      0.000:    129.24:      0.0000:    90.0:     0.0:
+:--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
+
+=================================================== INJECTION REPORT ========================================
+:  WELL  :  LOCATION : CTRL : CTRL : CTRL :    OIL    :   WATER   :    GAS    :   FLUID   : BHP OR : THP OR :
+:  NAME  :  (I,J,K)  : MODE : MODE : MODE :    RATE   :   RATE    :    RATE   :  RES.VOL. : CON.PR.: BLK.PR.:
+:        :           : OIL  : WAT  : GAS  :  SCM/DAY  :  SCM/DAY  :  SCM/DAY  :  RCM/DAY  :  BARSA :  BARSA :
+=============================================================================================================
+:   FIELD:           :      :      :      :        0.0:     5890.3:        0.0:     6079.9:        :        :
+:       G:           :      :      :      :        0.0:     5890.3:        0.0:     6079.9:        :        :
+:    INJ1:    1,    1:      :   BHP:      :        0.0:     2205.1:        0.0:     2276.1:   300.0:     0.0:
+:    INJ2:   30,    1:      :   BHP:      :        0.0:      499.1:        0.0:      515.2:   300.0:     0.0:
+:    INJ3:   60,    1:      :   BHP:      :        0.0:     3186.1:        0.0:     3288.6:   300.0:     0.0:
+:--------:-----------:------:------:------:-----------:-----------:-----------:-----------:--------:--------:
+
+=================================================== CUMULATIVE PRODUCTION/INJECTION REPORT =========================================
+:  WELL  :  LOCATION :  WELL  :CTRL:    OIL    :   WATER   :    GAS    :   Prod    :    OIL    :   WATER   :    GAS    :   INJ     :
+:  NAME  :  (I,J,K)  :  TYPE  :MODE:    PROD   :   PROD    :    PROD   :  RES.VOL. :    INJ    :   INJ     :    INJ    :  RES.VOL. :
+:        :           :        :    :    MSCM   :   MSCM    :    MMSCM  :   MRCM    :    MSCM   :   MSCM    :    MMSCM  :   MRCM    :
+====================================================================================================================================
+:   FIELD:           :        :    :    10141.2:        0.0:     1310.8:    14229.4:        0.0:    15363.6:        0.0:    15862.9:
+:       G:           :        :    :    10141.2:        0.0:     1310.8:    14229.4:        0.0:    15363.6:        0.0:    15862.9:
+:    INJ1:    1,    1:     INJ: BHP:        0.0:        0.0:        0.0:        0.0:        0.0:     5715.8:        0.0:     5901.5:
+:    INJ2:   30,    1:     INJ: BHP:        0.0:        0.0:        0.0:        0.0:        0.0:     1274.8:        0.0:     1316.2:
+:    INJ3:   60,    1:     INJ: BHP:        0.0:        0.0:        0.0:        0.0:        0.0:     8373.0:        0.0:     8645.2:
+:    PRO1:    1,   60:    PROD: BHP:     4924.5:        0.0:      636.6:     6910.4:        0.0:        0.0:        0.0:        0.0:
+:    PRO2:   30,   60:    PROD: BHP:     2292.9:        0.0:      296.3:     3217.1:        0.0:        0.0:        0.0:        0.0:
+:    PRO3:   60,   60:    PROD: BHP:     2923.8:        0.0:      377.9:     4102.0:        0.0:        0.0:        0.0:        0.0:
+:--------:-----------:--------:----:-----------:-----------:-----------:-----------:-----------:-----------:-----------:-----------:
+
+Time step took 1.092530 seconds; total solver time 10.306761 seconds.
+
+
+---------------    Simulation step number 6    ---------------
+      Current time (days)     2400
+      Current stepsize (days) 400
+      Total time (days)       4000
+
+
+
+Report step  6/10 at day 2400/4000, date = 28-Jul-2028
+
+Starting time step 0, stepsize 200 days, at day 2400/2800, date = 28-Jul-2028
+Restart file written for report step  6/10, date = 28-Jul-2028 00:00:00
+Iter    MB(O)      MB(W)      MB(G)      CNV(O)     CNV(W)     CNV(G) 
+   0  1.249e-02  1.251e-02  5.086e-03  2.739e-01  2.736e-01  1.115e-01
+   1  2.206e-04  3.107e-04  8.982e-05  2.321e-01  3.114e-01  9.449e-02
+   2  3.857e-05  3.243e-05  1.570e-05  9.427e-02  4.991e-02  3.838e-02
+   3  2.226e-06  4.841e-07  9.474e-07  6.027e-03  2.978e-03  2.453e-03
+   4  1.232e-07  4.706e-08  4.974e-08  1.246e-05  3.490e-05  4.517e-06
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+Overall linear iterations used: 114
+ Newton its= 4, linearizations= 5 (0.1sec), linear its=114 (0.4sec)
+
+Starting time step 1, stepsize 200 days, at day 2600/2800, date = 13-Feb-2029
+Iter    MB(O)      MB(W)      MB(G)      CNV(O)     CNV(W)     CNV(G) 
+   0  1.250e-02  1.252e-02  5.089e-03  2.644e-01  2.641e-01  1.076e-01
+   1  2.065e-04  2.903e-04  8.405e-05  2.193e-01  3.931e-01  8.924e-02
+   2  1.090e-05  3.877e-07  4.435e-06  1.184e-01  1.566e-01  4.817e-02
+   3  1.078e-05  1.577e-07  4.386e-06  8.799e-03  9.281e-03  3.580e-03
+   4  1.944e-08  7.761e-08  7.656e-09  8.094e-06  3.327e-05  3.293e-06
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+Keyword 'NEWTON' is unhandled for output to restart file.
+Overall linear iterations used: 101
+ Newton its= 4, linearizations= 5 (0.1sec), linear its=101 (0.3sec)
+Sub steps started at time = 2400 (days)
+ step[ 0 ] = 200 (days)
+ step[ 1 ] = 200 (days)
+sub steps end time = 2800 (days)
+Suggested next step size = 365 (days)
+
+
+                              **************************************************************************
+  WELLS    AT      2400  DAYS *         INVERTED 5 SPOT MODEL                                          *
+  REPORT    6    28 Jul 2028  *                                             Flow  version 2024.10-pre  *
+                              **************************************************************************
+
+
+======================================================= PRODUCTION REPORT =======================================================
+:  WELL  :  LOCATION :CTRL:    OIL    :   WATER   :    GAS    :   FLUID   :   WATER   : GAS/OIL  :  WAT/GAS   : BHP OR : THP OR :
+:  NAME  :  (I,J,K)  :MODE:    RATE   :   RATE    :    RATE   :  RES.VOL. :    CUT    :  RATIO   :   RATIO    : CON.PR.: BLK.PR.:
+:        :           :    :  SCM/DAY  :  SCM/DAY  :  SCM/DAY  :  RCM/DAY  :  SCM/SCM  :  SCM/SCM :  SCM/SCM   :  BARSA :  BARSA :
+=================================================================================================================================
+:   FIELD:           :    :     4342.6:        0.0:   561246.4:     6085.3:      0.000:    129.24:      0.0000:        :        :
+:       G:           :    :     4342.6:        0.0:   561246.4:     6085.3:      0.000:    129.24:      0.0000:        :        :
+:    PRO1:    1,   60: BHP:     2109.1:        0.0:   272579.3:     2955.4:      0.000:    129.24:      0.0000:    90.0:     0.0:
+:    PRO2:   30,   60: BHP:      980.7:        0.0:   126750.9:     1374.3:      0.000:    129.24:      0.0000:    90.0:     0.0:
+:    PRO3:   60,   60: BHP:     1252.8:        0.0:   161916.1:     1755.6:      0.000:    129.24:      0.0000:    90.0:     0.0:
+:--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
+
+=================================================== INJECTION REPORT ========================================
+:  WELL  :  LOCATION : CTRL : CTRL : CTRL :    OIL    :   WATER   :    GAS    :   FLUID   : BHP OR : THP OR :
+:  NAME  :  (I,J,K)  : MODE : MODE : MODE :    RATE   :   RATE    :    RATE   :  RES.VOL. : CON.PR.: BLK.PR.:
+:        :           : OIL  : WAT  : GAS  :  SCM/DAY  :  SCM/DAY  :  SCM/DAY  :  RCM/DAY  :  BARSA :  BARSA :
+=============================================================================================================
+:   FIELD:           :      :      :      :        0.0:     5898.8:        0.0:     6088.7:        :        :
+:       G:           :      :      :      :        0.0:     5898.8:        0.0:     6088.7:        :        :
+:    INJ1:    1,    1:      :   BHP:      :        0.0:     2206.1:        0.0:     2277.1:   300.0:     0.0:
+:    INJ2:   30,    1:      :   BHP:      :        0.0:      498.7:        0.0:      514.7:   300.0:     0.0:
+:    INJ3:   60,    1:      :   BHP:      :        0.0:     3194.1:        0.0:     3296.9:   300.0:     0.0:
+:--------:-----------:------:------:------:-----------:-----------:-----------:-----------:--------:--------:
+
+=================================================== CUMULATIVE PRODUCTION/INJECTION REPORT =========================================
+:  WELL  :  LOCATION :  WELL  :CTRL:    OIL    :   WATER   :    GAS    :   Prod    :    OIL    :   WATER   :    GAS    :   INJ     :
+:  NAME  :  (I,J,K)  :  TYPE  :MODE:    PROD   :   PROD    :    PROD   :  RES.VOL. :    INJ    :   INJ     :    INJ    :  RES.VOL. :
+:        :           :        :    :    MSCM   :   MSCM    :    MMSCM  :   MRCM    :    MSCM   :   MSCM    :    MMSCM  :   MRCM    :
+====================================================================================================================================
+:   FIELD:           :        :    :    11877.5:        0.0:     1535.2:    16662.5:        0.0:    17722.3:        0.0:    18297.6:
+:       G:           :        :    :    11877.5:        0.0:     1535.2:    16662.5:        0.0:    17722.3:        0.0:    18297.6:
+:    INJ1:    1,    1:     INJ: BHP:        0.0:        0.0:        0.0:        0.0:        0.0:     6598.1:        0.0:     6812.2:
+:    INJ2:   30,    1:     INJ: BHP:        0.0:        0.0:        0.0:        0.0:        0.0:     1474.3:        0.0:     1522.2:
+:    INJ3:   60,    1:     INJ: BHP:        0.0:        0.0:        0.0:        0.0:        0.0:     9649.9:        0.0:     9963.2:
+:    PRO1:    1,   60:    PROD: BHP:     5767.8:        0.0:      745.6:     8092.0:        0.0:        0.0:        0.0:        0.0:
+:    PRO2:   30,   60:    PROD: BHP:     2685.1:        0.0:      347.0:     3766.6:        0.0:        0.0:        0.0:        0.0:
+:    PRO3:   60,   60:    PROD: BHP:     3424.7:        0.0:      442.6:     4803.9:        0.0:        0.0:        0.0:        0.0:
+:--------:-----------:--------:----:-----------:-----------:-----------:-----------:-----------:-----------:-----------:-----------:
+
+Time step took 1.003659 seconds; total solver time 11.310420 seconds.
+
+
+---------------    Simulation step number 7    ---------------
+      Current time (days)     2800
+      Current stepsize (days) 400
+      Total time (days)       4000
+
+
+
+Report step  7/10 at day 2800/4000, date = 01-Sep-2029
+
+Starting time step 0, stepsize 200 days, at day 2800/3200, date = 01-Sep-2029
+Restart file written for report step  7/10, date = 01-Sep-2029 00:00:00
+Iter    MB(O)      MB(W)      MB(G)      CNV(O)     CNV(W)     CNV(G) 
+   0  1.251e-02  1.253e-02  5.091e-03  2.639e-01  2.636e-01  1.074e-01
+   1  2.177e-04  2.988e-04  8.857e-05  1.899e-01  5.242e-01  7.728e-02
+   2  3.305e-05  3.725e-05  1.344e-05  6.716e-02  1.579e-01  2.732e-02
+   3  8.748e-06  1.519e-06  3.558e-06  9.786e-03  6.856e-03  3.980e-03
+   4  2.246e-07  2.956e-09  9.134e-08  1.345e-05  1.902e-05  5.470e-06
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+Overall linear iterations used: 120
+ Newton its= 4, linearizations= 5 (0.1sec), linear its=120 (0.4sec)
+
+Starting time step 1, stepsize 200 days, at day 3000/3200, date = 20-Mar-2030
+Iter    MB(O)      MB(W)      MB(G)      CNV(O)     CNV(W)     CNV(G) 
+   0  1.252e-02  1.253e-02  5.093e-03  2.617e-01  2.614e-01  1.064e-01
+   1  2.152e-04  2.897e-04  8.754e-05  2.120e-01  5.505e-01  8.623e-02
+Linear system blocksize: 3 size:   18000 block nonzeroes:    117600
+   2  3.814e-05  4.864e-05  1.551e-05  9.409e-02  1.456e-01  3.826e-02
+   3  3.985e-07  2.207e-07  1.621e-07  1.362e-02  3.196e-02  5.537e-03
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+Keyword 'NEWTON' is unhandled for output to restart file.
+Overall linear iterations used: 84
+ Newton its= 3, linearizations= 4 (0.1sec), linear its= 84 (0.3sec)
+Sub steps started at time = 2800 (days)
+ step[ 0 ] = 200 (days)
+ step[ 1 ] = 200 (days)
+sub steps end time = 3200 (days)
+Suggested next step size = 365 (days)
+
+
+                              **************************************************************************
+  WELLS    AT      2800  DAYS *         INVERTED 5 SPOT MODEL                                          *
+  REPORT    7    01 Sep 2029  *                                             Flow  version 2024.10-pre  *
+                              **************************************************************************
+
+
+======================================================= PRODUCTION REPORT =======================================================
+:  WELL  :  LOCATION :CTRL:    OIL    :   WATER   :    GAS    :   FLUID   :   WATER   : GAS/OIL  :  WAT/GAS   : BHP OR : THP OR :
+:  NAME  :  (I,J,K)  :MODE:    RATE   :   RATE    :    RATE   :  RES.VOL. :    CUT    :  RATIO   :   RATIO    : CON.PR.: BLK.PR.:
+:        :           :    :  SCM/DAY  :  SCM/DAY  :  SCM/DAY  :  RCM/DAY  :  SCM/SCM  :  SCM/SCM :  SCM/SCM   :  BARSA :  BARSA :
+=================================================================================================================================
+:   FIELD:           :    :     4349.2:        0.0:   562099.7:     6094.6:      0.000:    129.24:      0.0000:        :        :
+:       G:           :    :     4349.2:        0.0:   562099.7:     6094.6:      0.000:    129.24:      0.0000:        :        :
+:    PRO1:    1,   60: BHP:     2112.4:        0.0:   273014.5:     2960.2:      0.000:    129.24:      0.0000:    90.0:     0.0:
+:    PRO2:   30,   60: BHP:      982.0:        0.0:   126915.0:     1376.1:      0.000:    129.24:      0.0000:    90.0:     0.0:
+:    PRO3:   60,   60: BHP:     1254.8:        0.0:   162170.2:     1758.3:      0.000:    129.24:      0.0000:    90.0:     0.0:
+:--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
+
+=================================================== INJECTION REPORT ========================================
+:  WELL  :  LOCATION : CTRL : CTRL : CTRL :    OIL    :   WATER   :    GAS    :   FLUID   : BHP OR : THP OR :
+:  NAME  :  (I,J,K)  : MODE : MODE : MODE :    RATE   :   RATE    :    RATE   :  RES.VOL. : CON.PR.: BLK.PR.:
+:        :           : OIL  : WAT  : GAS  :  SCM/DAY  :  SCM/DAY  :  SCM/DAY  :  RCM/DAY  :  BARSA :  BARSA :
+=============================================================================================================
+:   FIELD:           :      :      :      :        0.0:     5906.2:        0.0:     6096.4:        :        :
+:       G:           :      :      :      :        0.0:     5906.2:        0.0:     6096.4:        :        :
+:    INJ1:    1,    1:      :   BHP:      :        0.0:     2208.4:        0.0:     2279.5:   300.0:     0.0:
+:    INJ2:   30,    1:      :   BHP:      :        0.0:      498.7:        0.0:      514.8:   300.0:     0.0:
+:    INJ3:   60,    1:      :   BHP:      :        0.0:     3199.2:        0.0:     3302.1:   300.0:     0.0:
+:--------:-----------:------:------:------:-----------:-----------:-----------:-----------:--------:--------:
+
+=================================================== CUMULATIVE PRODUCTION/INJECTION REPORT =========================================
+:  WELL  :  LOCATION :  WELL  :CTRL:    OIL    :   WATER   :    GAS    :   Prod    :    OIL    :   WATER   :    GAS    :   INJ     :
+:  NAME  :  (I,J,K)  :  TYPE  :MODE:    PROD   :   PROD    :    PROD   :  RES.VOL. :    INJ    :   INJ     :    INJ    :  RES.VOL. :
+:        :           :        :    :    MSCM   :   MSCM    :    MMSCM  :   MRCM    :    MSCM   :   MSCM    :    MMSCM  :   MRCM    :
+====================================================================================================================================
+:   FIELD:           :        :    :    13616.6:        0.0:     1760.0:    19099.4:        0.0:    20084.0:        0.0:    20735.3:
+:       G:           :        :    :    13616.6:        0.0:     1760.0:    19099.4:        0.0:    20084.0:        0.0:    20735.3:
+:    INJ1:    1,    1:     INJ: BHP:        0.0:        0.0:        0.0:        0.0:        0.0:     7481.1:        0.0:     7723.7:
+:    INJ2:   30,    1:     INJ: BHP:        0.0:        0.0:        0.0:        0.0:        0.0:     1673.8:        0.0:     1728.0:
+:    INJ3:   60,    1:     INJ: BHP:        0.0:        0.0:        0.0:        0.0:        0.0:    10929.1:        0.0:    11283.6:
+:    PRO1:    1,   60:    PROD: BHP:     6612.4:        0.0:      854.7:     9275.6:        0.0:        0.0:        0.0:        0.0:
+:    PRO2:   30,   60:    PROD: BHP:     3077.8:        0.0:      397.8:     4316.8:        0.0:        0.0:        0.0:        0.0:
+:    PRO3:   60,   60:    PROD: BHP:     3926.4:        0.0:      507.5:     5507.0:        0.0:        0.0:        0.0:        0.0:
+:--------:-----------:--------:----:-----------:-----------:-----------:-----------:-----------:-----------:-----------:-----------:
+
+Time step took 0.950913 seconds; total solver time 12.261333 seconds.
+
+
+---------------    Simulation step number 8    ---------------
+      Current time (days)     3200
+      Current stepsize (days) 400
+      Total time (days)       4000
+
+
+
+Report step  8/10 at day 3200/4000, date = 06-Oct-2030
+
+Starting time step 0, stepsize 200 days, at day 3200/3600, date = 06-Oct-2030
+Restart file written for report step  8/10, date = 06-Oct-2030 00:00:00
+Iter    MB(O)      MB(W)      MB(G)      CNV(O)     CNV(W)     CNV(G) 
+   0  1.253e-02  1.254e-02  5.095e-03  2.584e-01  2.583e-01  1.051e-01
+   1  2.137e-04  2.872e-04  8.686e-05  2.098e-01  7.079e-01  8.527e-02
+   2  3.584e-05  4.487e-05  1.457e-05  1.019e-01  1.426e-01  4.144e-02
+   3  4.043e-06  1.914e-06  1.602e-06  2.078e-02  5.890e-02  8.445e-03
+   4  4.818e-07  1.089e-06  1.936e-07  9.007e-04  9.221e-04  3.661e-04
+   5  4.849e-09  2.672e-10  1.977e-09  6.964e-07  6.680e-07  2.830e-07
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+Overall linear iterations used: 144
+ Newton its= 5, linearizations= 6 (0.1sec), linear its=144 (0.4sec)
+
+Starting time step 1, stepsize 200 days, at day 3400/3600, date = 24-Apr-2031
+Iter    MB(O)      MB(W)      MB(G)      CNV(O)     CNV(W)     CNV(G) 
+   0  1.254e-02  1.255e-02  5.097e-03  2.632e-01  2.623e-01  1.070e-01
+   1  2.668e-04  3.382e-04  1.084e-04  1.957e-01  8.771e-01  7.953e-02
+   2  1.225e-05  1.850e-05  4.978e-06  1.057e-01  9.592e-02  4.296e-02
+   3  1.699e-06  1.839e-06  6.901e-07  7.750e-03  2.806e-02  3.149e-03
+   4  5.907e-07  2.459e-07  2.401e-07  4.009e-04  2.679e-04  1.629e-04
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+Keyword 'NEWTON' is unhandled for output to restart file.
+Overall linear iterations used: 84
+ Newton its= 4, linearizations= 5 (0.1sec), linear its= 84 (0.3sec)
+Sub steps started at time = 3200 (days)
+ step[ 0 ] = 200 (days)
+ step[ 1 ] = 200 (days)
+sub steps end time = 3600 (days)
+Suggested next step size = 365 (days)
+
+
+                              **************************************************************************
+  WELLS    AT      3200  DAYS *         INVERTED 5 SPOT MODEL                                          *
+  REPORT    8    06 Oct 2030  *                                             Flow  version 2024.10-pre  *
+                              **************************************************************************
+
+
+======================================================= PRODUCTION REPORT =======================================================
+:  WELL  :  LOCATION :CTRL:    OIL    :   WATER   :    GAS    :   FLUID   :   WATER   : GAS/OIL  :  WAT/GAS   : BHP OR : THP OR :
+:  NAME  :  (I,J,K)  :MODE:    RATE   :   RATE    :    RATE   :  RES.VOL. :    CUT    :  RATIO   :   RATIO    : CON.PR.: BLK.PR.:
+:        :           :    :  SCM/DAY  :  SCM/DAY  :  SCM/DAY  :  RCM/DAY  :  SCM/SCM  :  SCM/SCM :  SCM/SCM   :  BARSA :  BARSA :
+=================================================================================================================================
+:   FIELD:           :    :     4354.6:        0.0:   562795.5:     6102.3:      0.000:    129.24:      0.0000:        :        :
+:       G:           :    :     4354.6:        0.0:   562795.5:     6102.3:      0.000:    129.24:      0.0000:        :        :
+:    PRO1:    1,   60: BHP:     2115.3:        0.0:   273385.5:     2964.3:      0.000:    129.24:      0.0000:    90.0:     0.0:
+:    PRO2:   30,   60: BHP:      983.0:        0.0:   127045.7:     1377.5:      0.000:    129.24:      0.0000:    90.0:     0.0:
+:    PRO3:   60,   60: BHP:     1256.3:        0.0:   162364.3:     1760.5:      0.000:    129.24:      0.0000:    90.0:     0.0:
+:--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
+
+=================================================== INJECTION REPORT ========================================
+:  WELL  :  LOCATION : CTRL : CTRL : CTRL :    OIL    :   WATER   :    GAS    :   FLUID   : BHP OR : THP OR :
+:  NAME  :  (I,J,K)  : MODE : MODE : MODE :    RATE   :   RATE    :    RATE   :  RES.VOL. : CON.PR.: BLK.PR.:
+:        :           : OIL  : WAT  : GAS  :  SCM/DAY  :  SCM/DAY  :  SCM/DAY  :  RCM/DAY  :  BARSA :  BARSA :
+=============================================================================================================
+:   FIELD:           :      :      :      :        0.0:     5911.8:        0.0:     6102.1:        :        :
+:       G:           :      :      :      :        0.0:     5911.8:        0.0:     6102.1:        :        :
+:    INJ1:    1,    1:      :   BHP:      :        0.0:     2211.4:        0.0:     2282.6:   300.0:     0.0:
+:    INJ2:   30,    1:      :   BHP:      :        0.0:      499.2:        0.0:      515.3:   300.0:     0.0:
+:    INJ3:   60,    1:      :   BHP:      :        0.0:     3201.2:        0.0:     3304.3:   300.0:     0.0:
+:--------:-----------:------:------:------:-----------:-----------:-----------:-----------:--------:--------:
+
+=================================================== CUMULATIVE PRODUCTION/INJECTION REPORT =========================================
+:  WELL  :  LOCATION :  WELL  :CTRL:    OIL    :   WATER   :    GAS    :   Prod    :    OIL    :   WATER   :    GAS    :   INJ     :
+:  NAME  :  (I,J,K)  :  TYPE  :MODE:    PROD   :   PROD    :    PROD   :  RES.VOL. :    INJ    :   INJ     :    INJ    :  RES.VOL. :
+:        :           :        :    :    MSCM   :   MSCM    :    MMSCM  :   MRCM    :    MSCM   :   MSCM    :    MMSCM  :   MRCM    :
+====================================================================================================================================
+:   FIELD:           :        :    :    15357.9:        0.0:     1985.0:    21539.6:        0.0:    22448.1:        0.0:    23175.6:
+:       G:           :        :    :    15357.9:        0.0:     1985.0:    21539.6:        0.0:    22448.1:        0.0:    23175.6:
+:    INJ1:    1,    1:     INJ: BHP:        0.0:        0.0:        0.0:        0.0:        0.0:     8365.3:        0.0:     8636.4:
+:    INJ2:   30,    1:     INJ: BHP:        0.0:        0.0:        0.0:        0.0:        0.0:     1873.4:        0.0:     1934.1:
+:    INJ3:   60,    1:     INJ: BHP:        0.0:        0.0:        0.0:        0.0:        0.0:    12209.4:        0.0:    12605.1:
+:    PRO1:    1,   60:    PROD: BHP:     7458.3:        0.0:      964.1:    10460.9:        0.0:        0.0:        0.0:        0.0:
+:    PRO2:   30,   60:    PROD: BHP:     3470.9:        0.0:      448.6:     4867.7:        0.0:        0.0:        0.0:        0.0:
+:    PRO3:   60,   60:    PROD: BHP:     4428.8:        0.0:      572.4:     6211.0:        0.0:        0.0:        0.0:        0.0:
+:--------:-----------:--------:----:-----------:-----------:-----------:-----------:-----------:-----------:-----------:-----------:
+
+Time step took 1.101415 seconds; total solver time 13.362748 seconds.
+
+
+---------------    Simulation step number 9    ---------------
+      Current time (days)     3600
+      Current stepsize (days) 400
+      Total time (days)       4000
+
+
+
+Report step  9/10 at day 3600/4000, date = 10-Nov-2031
+
+Starting time step 0, stepsize 200 days, at day 3600/4000, date = 10-Nov-2031
+Restart file written for report step  9/10, date = 10-Nov-2031 00:00:00
+Iter    MB(O)      MB(W)      MB(G)      CNV(O)     CNV(W)     CNV(G) 
+   0  1.255e-02  1.255e-02  5.098e-03  2.598e-01  2.596e-01  1.056e-01
+   1  1.756e-04  2.437e-04  7.136e-05  2.320e-01  8.145e-01  9.427e-02
+   2  2.606e-05  3.756e-05  1.059e-05  8.628e-02  6.176e-02  3.506e-02
+   3  3.327e-06  1.574e-06  1.398e-06  5.666e-02  1.473e-02  2.302e-02
+   4  2.315e-06  3.474e-07  9.370e-07  4.322e-04  1.281e-03  1.756e-04
+   5  1.971e-08  1.362e-08  8.006e-09  3.491e-06  7.142e-06  1.418e-06
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+Overall linear iterations used: 132
+ Newton its= 5, linearizations= 6 (0.1sec), linear its=132 (0.4sec)
+
+Starting time step 1, stepsize 200 days, at day 3800/4000, date = 28-May-2032
+Iter    MB(O)      MB(W)      MB(G)      CNV(O)     CNV(W)     CNV(G) 
+   0  1.255e-02  1.256e-02  5.100e-03  2.426e-01  2.424e-01  9.857e-02
+   1  6.898e-05  1.360e-04  2.802e-05  1.242e-01  3.142e-01  5.044e-02
+   2  1.414e-05  1.057e-05  5.745e-06  4.787e-02  5.964e-02  1.945e-02
+   3  2.209e-06  3.773e-06  8.955e-07  3.948e-03  3.886e-03  1.603e-03
+   4  1.471e-07  6.606e-08  5.998e-08  1.644e-05  1.647e-05  6.677e-06
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ1 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ2 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+cross flow found when updateIPR for well INJ3 . The connection is ignored in IPR calculations
+Keyword 'NEWTON' is unhandled for output to restart file.
+Overall linear iterations used: 113
+ Newton its= 4, linearizations= 5 (0.1sec), linear its=113 (0.3sec)
+Sub steps started at time = 3600 (days)
+ step[ 0 ] = 200 (days)
+ step[ 1 ] = 200 (days)
+sub steps end time = 4000 (days)
+Suggested next step size = 365 (days)
+
+
+                              **************************************************************************
+  WELLS    AT      3600  DAYS *         INVERTED 5 SPOT MODEL                                          *
+  REPORT    9    10 Nov 2031  *                                             Flow  version 2024.10-pre  *
+                              **************************************************************************
+
+
+======================================================= PRODUCTION REPORT =======================================================
+:  WELL  :  LOCATION :CTRL:    OIL    :   WATER   :    GAS    :   FLUID   :   WATER   : GAS/OIL  :  WAT/GAS   : BHP OR : THP OR :
+:  NAME  :  (I,J,K)  :MODE:    RATE   :   RATE    :    RATE   :  RES.VOL. :    CUT    :  RATIO   :   RATIO    : CON.PR.: BLK.PR.:
+:        :           :    :  SCM/DAY  :  SCM/DAY  :  SCM/DAY  :  RCM/DAY  :  SCM/SCM  :  SCM/SCM :  SCM/SCM   :  BARSA :  BARSA :
+=================================================================================================================================
+:   FIELD:           :    :     4358.6:        0.0:   563320.5:     6108.2:      0.000:    129.24:      0.0000:        :        :
+:       G:           :    :     4358.6:        0.0:   563320.5:     6108.2:      0.000:    129.24:      0.0000:        :        :
+:    PRO1:    1,   60: BHP:     2117.6:        0.0:   273685.5:     2967.6:      0.000:    129.24:      0.0000:    90.0:     0.0:
+:    PRO2:   30,   60: BHP:      983.7:        0.0:   127140.9:     1378.6:      0.000:    129.24:      0.0000:    90.0:     0.0:
+:    PRO3:   60,   60: BHP:     1257.3:        0.0:   162494.1:     1761.9:      0.000:    129.24:      0.0000:    90.0:     0.0:
+:--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
+
+=================================================== INJECTION REPORT ========================================
+:  WELL  :  LOCATION : CTRL : CTRL : CTRL :    OIL    :   WATER   :    GAS    :   FLUID   : BHP OR : THP OR :
+:  NAME  :  (I,J,K)  : MODE : MODE : MODE :    RATE   :   RATE    :    RATE   :  RES.VOL. : CON.PR.: BLK.PR.:
+:        :           : OIL  : WAT  : GAS  :  SCM/DAY  :  SCM/DAY  :  SCM/DAY  :  RCM/DAY  :  BARSA :  BARSA :
+=============================================================================================================
+:   FIELD:           :      :      :      :        0.0:     5915.5:        0.0:     6106.0:        :        :
+:       G:           :      :      :      :        0.0:     5915.5:        0.0:     6106.0:        :        :
+:    INJ1:    1,    1:      :   BHP:      :        0.0:     2214.6:        0.0:     2285.9:   300.0:     0.0:
+:    INJ2:   30,    1:      :   BHP:      :        0.0:      499.9:        0.0:      516.0:   300.0:     0.0:
+:    INJ3:   60,    1:      :   BHP:      :        0.0:     3201.0:        0.0:     3304.1:   300.0:     0.0:
+:--------:-----------:------:------:------:-----------:-----------:-----------:-----------:--------:--------:
+
+=================================================== CUMULATIVE PRODUCTION/INJECTION REPORT =========================================
+:  WELL  :  LOCATION :  WELL  :CTRL:    OIL    :   WATER   :    GAS    :   Prod    :    OIL    :   WATER   :    GAS    :   INJ     :
+:  NAME  :  (I,J,K)  :  TYPE  :MODE:    PROD   :   PROD    :    PROD   :  RES.VOL. :    INJ    :   INJ     :    INJ    :  RES.VOL. :
+:        :           :        :    :    MSCM   :   MSCM    :    MMSCM  :   MRCM    :    MSCM   :   MSCM    :    MMSCM  :   MRCM    :
+====================================================================================================================================
+:   FIELD:           :        :    :    17101.0:        0.0:     2210.3:    23982.4:        0.0:    24813.9:        0.0:    25617.6:
+:       G:           :        :    :    17101.0:        0.0:     2210.3:    23982.4:        0.0:    24813.9:        0.0:    25617.6:
+:    INJ1:    1,    1:     INJ: BHP:        0.0:        0.0:        0.0:        0.0:        0.0:     9250.8:        0.0:     9550.4:
+:    INJ2:   30,    1:     INJ: BHP:        0.0:        0.0:        0.0:        0.0:        0.0:     2073.3:        0.0:     2140.4:
+:    INJ3:   60,    1:     INJ: BHP:        0.0:        0.0:        0.0:        0.0:        0.0:    13489.8:        0.0:    13926.8:
+:    PRO1:    1,   60:    PROD: BHP:     8305.1:        0.0:     1073.5:    11647.7:        0.0:        0.0:        0.0:        0.0:
+:    PRO2:   30,   60:    PROD: BHP:     3864.3:        0.0:      499.4:     5419.1:        0.0:        0.0:        0.0:        0.0:
+:    PRO3:   60,   60:    PROD: BHP:     4931.6:        0.0:      637.4:     6915.6:        0.0:        0.0:        0.0:        0.0:
+:--------:-----------:--------:----:-----------:-----------:-----------:-----------:-----------:-----------:-----------:-----------:
+
+Time step took 1.132685 seconds; total solver time 14.495433 seconds.
+Restart file written for report step 10/10, date = 14-Dec-2032 00:00:00
+
+
+================    End of simulation     ===============
+
+Number of MPI processes:         1
+Threads per MPI process:         2
+Setup time:                      0.33 s
+  Deck input:                    0.11 s
+Number of timesteps:            27
+Simulation time:                14.50 s
+  Assembly time:                 1.75 s (Wasted: 0.0 s; 0.0%)
+    Well assembly:               0.03 s (Wasted: 0.0 s; 0.0%)
+  Linear solve time:             9.77 s (Wasted: 0.0 s; 0.0%)
+    Linear setup:                0.60 s (Wasted: 0.0 s; 0.0%)
+  Props/update time:             2.57 s (Wasted: 0.0 s; 0.0%)
+  Pre/post step:                 0.34 s (Wasted: 0.0 s; 0.0%)
+  Output write time:             0.05 s
+Overall Linearizations:        137      (Wasted:     0; 0.0%)
+Overall Newton Iterations:     110      (Wasted:     0; 0.0%)
+Overall Linear Iterations:    3131      (Wasted:     0; 0.0%)
+
+
+
+Error summary:
+Warnings          11
+Info              168
+Errors            0
+Bugs              0
+Debug             630
+Problems          0
+

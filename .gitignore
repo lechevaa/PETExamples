@@ -147,3 +147,27 @@ cython_debug/
 
 # mergetoolfiles
 *.orig
+
+# numpy files
+*.npz 
+
+# images
+*.png 
+
+# data files
+*.csv 
+
+# Keras data files
+*.pb
+*.tfrecord
+*.index 
+*.data*
+
+*.json 
+*.pkl
+*.pickle
+
+*.X*
+*.S*
+*.A*
+*.model

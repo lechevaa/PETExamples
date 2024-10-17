@@ -15,7 +15,7 @@ import mat73,shutil,glob
 
 
 # define the test case
-model = 'tiny'  # 'tiny', 'small', 'medium', 'large', or 'flowrock'
+model = 'large'  # 'tiny', 'small', 'medium', 'large', or 'flowrock'
 case_name = 'RUNFILE'
 start = dt.datetime(2022, 1, 1)
 
@@ -46,7 +46,7 @@ def main():
         tmpl.render_context(ctx)
 
     # Run file
-    com = ['flow','--output-dir=TRUE_RUN', f'TRUE_RUN/{case_name}.DATA']
+    com = ['/home/AD.NORCERESEARCH.NO/anle/pycopm/build/opm-simulators/bin/flow','--output-dir=TRUE_RUN', f'TRUE_RUN/{case_name}.DATA', '--output-extra-convergence-info=steps,iterations']
     call(com, stdout=DEVNULL)
 
     case = ecl.EclipseCase(f'TRUE_RUN/{case_name}')
