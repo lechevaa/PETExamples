@@ -171,3 +171,10 @@ cython_debug/
 *.S*
 *.A*
 *.model
+*.DATA
+*.DBG
+*.RSM
+*.EGRID
+*.INFOSTEP
+*.INIT
+*.PRT
